@@ -7,7 +7,7 @@
 
 :ballot_box_with_check: **Scrum Master: [Nazenie Parsamyan](https://github.com/Nazenie-Parsamyan)**
 
-:ballot_box_with_check: **Senior Developer: [Sevak Baghumyan](https://github.com/sevak380) **
+:ballot_box_with_check: **Senior Developer: [Sevak Baghumyan](https://github.com/sevak380)**
 
 :ballot_box_with_check: **Developer: [Johanna Guevara](https://github.com/jguev)**
 
