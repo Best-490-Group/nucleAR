@@ -3,15 +3,15 @@
 ### nucleAR is an augmented reality application that will enhance the experience of a partner company's website by creating a virtual escape room. It will build upon the featured curriculum and client side goals, testing the user's knowledge through the course of the application's use.
 ### Team Members :sparkles:
 
-:ballot_box_with_check: **Product Manager: David Eisenbaum**
+:ballot_box_with_check: **Product Manager: [David Eisenbaum](https://github.com/FeTree)**
 
-:ballot_box_with_check: **Scrum Master: Nazenie Parsamyan**
+:ballot_box_with_check: **Scrum Master: [Nazenie Parsamyan](https://github.com/Nazenie-Parsamyan)**
 
 :ballot_box_with_check: **Senior Developer: Sevak Baghumyan**
 
-:ballot_box_with_check: **Developer: Johanna Guevara**
+:ballot_box_with_check: **Developer: [Johanna Guevara](https://github.com/jguev)**
 
-:ballot_box_with_check: **Developer: Shifath Salam**
+:ballot_box_with_check: **Developer: [Shifath Salam](https://github.com/sheef-code)**
 
 ## Getting Started
 These instructions will help you run our application on your local machine for development and testing purposes.
