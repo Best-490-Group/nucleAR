@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012D35C12555387D00BAFA98 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D35C02555387D00BAFA98 /* HomeScreenViewController.swift */; };
 		20F33959253CF2B2004DF063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F33958253CF2B2004DF063 /* AppDelegate.swift */; };
 		20F3395B253CF2B2004DF063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3395A253CF2B2004DF063 /* ViewController.swift */; };
 		20F3395D253CF2B2004DF063 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 20F3395C253CF2B2004DF063 /* Experience.rcproject */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		012D35C02555387D00BAFA98 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		20F33955253CF2B2004DF063 /* nucleAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nucleAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F33958253CF2B2004DF063 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20F3395A253CF2B2004DF063 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				20F3398B253D0772004DF063 /* Nsymbol.usdz */,
 				20F33958253CF2B2004DF063 /* AppDelegate.swift */,
 				20F3395A253CF2B2004DF063 /* ViewController.swift */,
+				012D35C02555387D00BAFA98 /* HomeScreenViewController.swift */,
 				20F3395C253CF2B2004DF063 /* Experience.rcproject */,
 				20F3395E253CF2B2004DF063 /* Main.storyboard */,
 				20F33961253CF2B3004DF063 /* Assets.xcassets */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20F3395B253CF2B2004DF063 /* ViewController.swift in Sources */,
+				012D35C12555387D00BAFA98 /* HomeScreenViewController.swift in Sources */,
 				20F33959253CF2B2004DF063 /* AppDelegate.swift in Sources */,
 				20F3395D253CF2B2004DF063 /* Experience.rcproject in Sources */,
 			);
@@ -441,7 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LQMWUYV47K;
+				DEVELOPMENT_TEAM = AFT49TZ2SR;
 				INFOPLIST_FILE = nucleAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,7 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LQMWUYV47K;
+				DEVELOPMENT_TEAM = AFT49TZ2SR;
 				INFOPLIST_FILE = nucleAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
