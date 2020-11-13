@@ -151,6 +151,7 @@ class ViewController: UIViewController {
                             success.removeFromSuperview()
                         }
                     }else{
+                        totalTime -= 10
                         error.text = "Incorrect! -10s"
                         self.view.addSubview(error)
                         DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) {
