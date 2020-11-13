@@ -17,6 +17,14 @@
 		20F33970253CF2B3004DF063 /* nucleARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3396F253CF2B3004DF063 /* nucleARTests.swift */; };
 		20F3397B253CF2B3004DF063 /* nucleARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3397A253CF2B3004DF063 /* nucleARUITests.swift */; };
 		20F3398C253D0772004DF063 /* Nsymbol.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 20F3398B253D0772004DF063 /* Nsymbol.usdz */; };
+		B0D6B185255E24D80087E080 /* 01.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B0D6B183255E24D70087E080 /* 01.usdz */; };
+		B0D6B186255E24D80087E080 /* 03.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B0D6B184255E24D80087E080 /* 03.usdz */; };
+		B0D6B192255E70050087E080 /* 07.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B0D6B18D255E70050087E080 /* 07.usdz */; };
+		B0D6B193255E70050087E080 /* 06.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B0D6B18E255E70050087E080 /* 06.usdz */; };
+		B0D6B194255E70050087E080 /* 04.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B0D6B18F255E70050087E080 /* 04.usdz */; };
+		B0D6B195255E70050087E080 /* 02.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B0D6B190255E70050087E080 /* 02.usdz */; };
+		B0D6B196255E70050087E080 /* 05.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B0D6B191255E70050087E080 /* 05.usdz */; };
+		B0D6B19B255E703A0087E080 /* 08.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B0D6B19A255E703A0087E080 /* 08.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,14 @@
 		20F3397A253CF2B3004DF063 /* nucleARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nucleARUITests.swift; sourceTree = "<group>"; };
 		20F3397C253CF2B3004DF063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20F3398B253D0772004DF063 /* Nsymbol.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Nsymbol.usdz; sourceTree = "<group>"; };
+		B0D6B183255E24D70087E080 /* 01.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = 01.usdz; path = ../../../../Downloads/01.usdz; sourceTree = "<group>"; };
+		B0D6B184255E24D80087E080 /* 03.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = 03.usdz; path = ../../../../Downloads/03.usdz; sourceTree = "<group>"; };
+		B0D6B18D255E70050087E080 /* 07.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = 07.usdz; path = ../../../../Downloads/PairsAR/PairsAR/07.usdz; sourceTree = "<group>"; };
+		B0D6B18E255E70050087E080 /* 06.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = 06.usdz; path = ../../../../Downloads/PairsAR/PairsAR/06.usdz; sourceTree = "<group>"; };
+		B0D6B18F255E70050087E080 /* 04.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = 04.usdz; path = ../../../../Downloads/PairsAR/PairsAR/04.usdz; sourceTree = "<group>"; };
+		B0D6B190255E70050087E080 /* 02.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = 02.usdz; path = ../../../../Downloads/PairsAR/PairsAR/02.usdz; sourceTree = "<group>"; };
+		B0D6B191255E70050087E080 /* 05.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = 05.usdz; path = ../../../../Downloads/PairsAR/PairsAR/05.usdz; sourceTree = "<group>"; };
+		B0D6B19A255E703A0087E080 /* 08.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = 08.usdz; path = ../../../../Downloads/PairsAR/PairsAR/08.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +121,14 @@
 			children = (
 				20F3398B253D0772004DF063 /* Nsymbol.usdz */,
 				20F33958253CF2B2004DF063 /* AppDelegate.swift */,
+				B0D6B183255E24D70087E080 /* 01.usdz */,
+				B0D6B190255E70050087E080 /* 02.usdz */,
+				B0D6B184255E24D80087E080 /* 03.usdz */,
+				B0D6B18F255E70050087E080 /* 04.usdz */,
+				B0D6B191255E70050087E080 /* 05.usdz */,
+				B0D6B18E255E70050087E080 /* 06.usdz */,
+				B0D6B18D255E70050087E080 /* 07.usdz */,
+				B0D6B19A255E703A0087E080 /* 08.usdz */,
 				20F3395A253CF2B2004DF063 /* ViewController.swift */,
 				012D35C02555387D00BAFA98 /* HomeScreenViewController.swift */,
 				20F3395C253CF2B2004DF063 /* Experience.rcproject */,
@@ -237,10 +261,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D6B186255E24D80087E080 /* 03.usdz in Resources */,
+				B0D6B193255E70050087E080 /* 06.usdz in Resources */,
 				20F3398C253D0772004DF063 /* Nsymbol.usdz in Resources */,
+				B0D6B19B255E703A0087E080 /* 08.usdz in Resources */,
+				B0D6B192255E70050087E080 /* 07.usdz in Resources */,
+				B0D6B196255E70050087E080 /* 05.usdz in Resources */,
+				B0D6B185255E24D80087E080 /* 01.usdz in Resources */,
 				20F33965253CF2B3004DF063 /* LaunchScreen.storyboard in Resources */,
+				B0D6B194255E70050087E080 /* 04.usdz in Resources */,
 				20F33962253CF2B3004DF063 /* Assets.xcassets in Resources */,
 				20F33960253CF2B2004DF063 /* Main.storyboard in Resources */,
+				B0D6B195255E70050087E080 /* 02.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,13 +477,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AFT49TZ2SR;
+				DEVELOPMENT_TEAM = 4XNJ36AV2F;
 				INFOPLIST_FILE = nucleAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jguev.nucleAR;
+				PRODUCT_BUNDLE_IDENTIFIER = sheef.nucleAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,15 +495,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AFT49TZ2SR;
+				DEVELOPMENT_TEAM = 4XNJ36AV2F;
 				INFOPLIST_FILE = nucleAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jguev.nucleAR;
+				PRODUCT_BUNDLE_IDENTIFIER = sheef.nucleAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
