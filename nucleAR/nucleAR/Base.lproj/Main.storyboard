@@ -2,9 +2,8 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tZy-ea-F28">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -38,16 +37,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hsw-TE-kt8">
-                                <rect key="frame" x="141.5" y="433" width="131" height="30"/>
-                                <state key="normal" title="Start Escape Room"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hsw-TE-kt8">
+                                <rect key="frame" x="118" y="433" width="179" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.03536109995175922" blue="0.15179727979274615" alpha="0.81932218309859151" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Start Escape Room">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" identifier="goToSceneOneSegue" id="Vbl-dw-aHa"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="N7L-6u-efN"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.82516851365527077" green="0.97190738341968907" blue="0.89526798144250774" alpha="0.81932218309859151" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="hsw-TE-kt8" firstAttribute="centerY" secondItem="IAe-Wj-TbJ" secondAttribute="centerY" id="2Hc-6T-J5C"/>
                             <constraint firstItem="hsw-TE-kt8" firstAttribute="centerX" secondItem="IAe-Wj-TbJ" secondAttribute="centerX" id="6Ce-Wf-3Yk"/>
@@ -96,9 +98,4 @@
             <point key="canvasLocation" x="138" y="134"/>
         </scene>
     </scenes>
-    <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>
