@@ -2,7 +2,6 @@
 //  HomeScreenViewController.swift
 //  nucleAR
 //
-//  Created by David Eisenbaum on 11/5/20.
 //
 
 import UIKit

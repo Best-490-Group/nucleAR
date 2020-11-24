@@ -1,9 +1,6 @@
-//
-//  Puzzle 2 View Controller
-//  nucleAR
-//
-// Created by Shifa Salam
-//
+/*
+  Johanna Guevara, Shifa Salam, David Eisenbaum, Naz Parsamyan, Sevak Baghumyan
+*/
 
 import UIKit
 import RealityKit
@@ -18,6 +15,8 @@ class ViewController: UIViewController {
     var timer: Timer?
     var totalTime = 60
     
+    //setup variables for Puzzle 1
+    var anchorPuzzle1:Puzzle1.P1!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -30,6 +29,11 @@ class ViewController: UIViewController {
         // configuring tap gesture recognizer
         let itemTap = UITapGestureRecognizer(target: self, action: #selector(Tappy))
         view.addGestureRecognizer(itemTap)
+        
+        //setting up anchor for Puzzle 1
+        anchorPuzzle1 = try! Puzzle1.loadP1()
+        anchorPuzzle1.generateCollisionShapes(recursive: true)
+        arMagicView.scene.anchors.append(anchorPuzzle1)
         
         //setting up anchor with an AnchorEntity
         let anchor = AnchorEntity(plane: .horizontal, minimumBounds: [0.2, 0.2])
@@ -98,7 +102,7 @@ class ViewController: UIViewController {
     
     //function to execute timer
     func beginTimer() {
-             self.totalTime = 60
+             self.totalTime = 120
              self.timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(processTimer), userInfo: nil, repeats: true)
              self.view.addSubview(timerLabel)
          }
@@ -127,6 +131,8 @@ class ViewController: UIViewController {
     
     // Tap function for puzzle 2 items
     @IBAction func Tappy(_ sender: UITapGestureRecognizer) {
+        // start Puzzle 1
+        anchorPuzzle1.notifications.puzzle1Notification.post()
         // locate where the user is tapping
         let tapLocation = sender.location(in: arMagicView)
                 // configuring success label for the right answer
@@ -159,5 +165,5 @@ class ViewController: UIViewController {
                         }
                     }
             }
-    }
+    } // Tappy function
 }

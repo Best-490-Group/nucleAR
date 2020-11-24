@@ -8,6 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		012D35C12555387D00BAFA98 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D35C02555387D00BAFA98 /* HomeScreenViewController.swift */; };
+		202DD60A2562C06B00FB868C /* 01.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6092562C06B00FB868C /* 01.usdz */; };
+		202DD60B2562C06B00FB868C /* 01.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6092562C06B00FB868C /* 01.usdz */; };
+		202DD60C2562C06B00FB868C /* 01.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6092562C06B00FB868C /* 01.usdz */; };
+		202DD6172562C07F00FB868C /* 02.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6162562C07F00FB868C /* 02.usdz */; };
+		202DD6182562C07F00FB868C /* 02.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6162562C07F00FB868C /* 02.usdz */; };
+		202DD6192562C07F00FB868C /* 02.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6162562C07F00FB868C /* 02.usdz */; };
+		202DD6242562C09B00FB868C /* 03.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6232562C09B00FB868C /* 03.usdz */; };
+		202DD6252562C09B00FB868C /* 03.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6232562C09B00FB868C /* 03.usdz */; };
+		202DD6262562C09B00FB868C /* 03.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6232562C09B00FB868C /* 03.usdz */; };
+		202DD62E2562C0A900FB868C /* 04.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD62D2562C0A900FB868C /* 04.usdz */; };
+		202DD62F2562C0A900FB868C /* 04.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD62D2562C0A900FB868C /* 04.usdz */; };
+		202DD6302562C0A900FB868C /* 04.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD62D2562C0A900FB868C /* 04.usdz */; };
+		202DD6382562C0B400FB868C /* 05.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6372562C0B400FB868C /* 05.usdz */; };
+		202DD6392562C0B400FB868C /* 05.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6372562C0B400FB868C /* 05.usdz */; };
+		202DD63A2562C0B400FB868C /* 05.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6372562C0B400FB868C /* 05.usdz */; };
+		202DD6422562C0BC00FB868C /* 06.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6412562C0BC00FB868C /* 06.usdz */; };
+		202DD6432562C0BC00FB868C /* 06.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6412562C0BC00FB868C /* 06.usdz */; };
+		202DD6442562C0BC00FB868C /* 06.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6412562C0BC00FB868C /* 06.usdz */; };
+		202DD6492562C0C200FB868C /* 07.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6482562C0C200FB868C /* 07.usdz */; };
+		202DD64A2562C0C200FB868C /* 07.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6482562C0C200FB868C /* 07.usdz */; };
+		202DD64B2562C0C200FB868C /* 07.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6482562C0C200FB868C /* 07.usdz */; };
+		202DD6532562C0C800FB868C /* 08.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6522562C0C800FB868C /* 08.usdz */; };
+		202DD6542562C0C800FB868C /* 08.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6522562C0C800FB868C /* 08.usdz */; };
+		202DD6552562C0C800FB868C /* 08.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6522562C0C800FB868C /* 08.usdz */; };
+		202DD6632562D2A200FB868C /* Puzzle1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 202DD6622562D2A200FB868C /* Puzzle1.rcproject */; };
+		202DD6642562D2A200FB868C /* Puzzle1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 202DD6622562D2A200FB868C /* Puzzle1.rcproject */; };
+		202DD6652562D2A200FB868C /* Puzzle1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 202DD6622562D2A200FB868C /* Puzzle1.rcproject */; };
 		20F33959253CF2B2004DF063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F33958253CF2B2004DF063 /* AppDelegate.swift */; };
 		20F3395B253CF2B2004DF063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3395A253CF2B2004DF063 /* ViewController.swift */; };
 		20F3395D253CF2B2004DF063 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 20F3395C253CF2B2004DF063 /* Experience.rcproject */; };
@@ -16,15 +43,6 @@
 		20F33965253CF2B3004DF063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F33963253CF2B3004DF063 /* LaunchScreen.storyboard */; };
 		20F33970253CF2B3004DF063 /* nucleARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3396F253CF2B3004DF063 /* nucleARTests.swift */; };
 		20F3397B253CF2B3004DF063 /* nucleARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3397A253CF2B3004DF063 /* nucleARUITests.swift */; };
-		20F3398C253D0772004DF063 /* Nsymbol.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 20F3398B253D0772004DF063 /* Nsymbol.usdz */; };
-		B0D6B185255E24D80087E080 /* 01.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B0D6B183255E24D70087E080 /* 01.usdz */; };
-		B0D6B186255E24D80087E080 /* 03.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B0D6B184255E24D80087E080 /* 03.usdz */; };
-		B0D6B192255E70050087E080 /* 07.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B0D6B18D255E70050087E080 /* 07.usdz */; };
-		B0D6B193255E70050087E080 /* 06.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B0D6B18E255E70050087E080 /* 06.usdz */; };
-		B0D6B194255E70050087E080 /* 04.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B0D6B18F255E70050087E080 /* 04.usdz */; };
-		B0D6B195255E70050087E080 /* 02.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B0D6B190255E70050087E080 /* 02.usdz */; };
-		B0D6B196255E70050087E080 /* 05.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B0D6B191255E70050087E080 /* 05.usdz */; };
-		B0D6B19B255E703A0087E080 /* 08.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B0D6B19A255E703A0087E080 /* 08.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +64,15 @@
 
 /* Begin PBXFileReference section */
 		012D35C02555387D00BAFA98 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		202DD6092562C06B00FB868C /* 01.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 01.usdz; sourceTree = "<group>"; };
+		202DD6162562C07F00FB868C /* 02.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 02.usdz; sourceTree = "<group>"; };
+		202DD6232562C09B00FB868C /* 03.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 03.usdz; sourceTree = "<group>"; };
+		202DD62D2562C0A900FB868C /* 04.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 04.usdz; sourceTree = "<group>"; };
+		202DD6372562C0B400FB868C /* 05.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 05.usdz; sourceTree = "<group>"; };
+		202DD6412562C0BC00FB868C /* 06.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 06.usdz; sourceTree = "<group>"; };
+		202DD6482562C0C200FB868C /* 07.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 07.usdz; sourceTree = "<group>"; };
+		202DD6522562C0C800FB868C /* 08.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 08.usdz; sourceTree = "<group>"; };
+		202DD6622562D2A200FB868C /* Puzzle1.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Puzzle1.rcproject; sourceTree = "<group>"; };
 		20F33955253CF2B2004DF063 /* nucleAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nucleAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F33958253CF2B2004DF063 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20F3395A253CF2B2004DF063 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,15 +87,6 @@
 		20F33976253CF2B3004DF063 /* nucleARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nucleARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F3397A253CF2B3004DF063 /* nucleARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nucleARUITests.swift; sourceTree = "<group>"; };
 		20F3397C253CF2B3004DF063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20F3398B253D0772004DF063 /* Nsymbol.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Nsymbol.usdz; sourceTree = "<group>"; };
-		B0D6B183255E24D70087E080 /* 01.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = 01.usdz; path = ../../../../Downloads/01.usdz; sourceTree = "<group>"; };
-		B0D6B184255E24D80087E080 /* 03.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = 03.usdz; path = ../../../../Downloads/03.usdz; sourceTree = "<group>"; };
-		B0D6B18D255E70050087E080 /* 07.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = 07.usdz; path = ../../../../Downloads/PairsAR/PairsAR/07.usdz; sourceTree = "<group>"; };
-		B0D6B18E255E70050087E080 /* 06.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = 06.usdz; path = ../../../../Downloads/PairsAR/PairsAR/06.usdz; sourceTree = "<group>"; };
-		B0D6B18F255E70050087E080 /* 04.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = 04.usdz; path = ../../../../Downloads/PairsAR/PairsAR/04.usdz; sourceTree = "<group>"; };
-		B0D6B190255E70050087E080 /* 02.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = 02.usdz; path = ../../../../Downloads/PairsAR/PairsAR/02.usdz; sourceTree = "<group>"; };
-		B0D6B191255E70050087E080 /* 05.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = 05.usdz; path = ../../../../Downloads/PairsAR/PairsAR/05.usdz; sourceTree = "<group>"; };
-		B0D6B19A255E703A0087E080 /* 08.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = 08.usdz; path = ../../../../Downloads/PairsAR/PairsAR/08.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +114,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		202DD6692562D6F100FB868C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				202DD6522562C0C800FB868C /* 08.usdz */,
+				202DD6482562C0C200FB868C /* 07.usdz */,
+				202DD6412562C0BC00FB868C /* 06.usdz */,
+				202DD6372562C0B400FB868C /* 05.usdz */,
+				202DD62D2562C0A900FB868C /* 04.usdz */,
+				202DD6232562C09B00FB868C /* 03.usdz */,
+				202DD6162562C07F00FB868C /* 02.usdz */,
+				202DD6092562C06B00FB868C /* 01.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		20F3394C253CF2B2004DF063 = {
 			isa = PBXGroup;
 			children = (
@@ -119,18 +152,11 @@
 		20F33957253CF2B2004DF063 /* nucleAR */ = {
 			isa = PBXGroup;
 			children = (
-				20F3398B253D0772004DF063 /* Nsymbol.usdz */,
 				20F33958253CF2B2004DF063 /* AppDelegate.swift */,
-				B0D6B183255E24D70087E080 /* 01.usdz */,
-				B0D6B190255E70050087E080 /* 02.usdz */,
-				B0D6B184255E24D80087E080 /* 03.usdz */,
-				B0D6B18F255E70050087E080 /* 04.usdz */,
-				B0D6B191255E70050087E080 /* 05.usdz */,
-				B0D6B18E255E70050087E080 /* 06.usdz */,
-				B0D6B18D255E70050087E080 /* 07.usdz */,
-				B0D6B19A255E703A0087E080 /* 08.usdz */,
+				202DD6692562D6F100FB868C /* Models */,
 				20F3395A253CF2B2004DF063 /* ViewController.swift */,
 				012D35C02555387D00BAFA98 /* HomeScreenViewController.swift */,
+				202DD6622562D2A200FB868C /* Puzzle1.rcproject */,
 				20F3395C253CF2B2004DF063 /* Experience.rcproject */,
 				20F3395E253CF2B2004DF063 /* Main.storyboard */,
 				20F33961253CF2B3004DF063 /* Assets.xcassets */,
@@ -261,18 +287,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0D6B186255E24D80087E080 /* 03.usdz in Resources */,
-				B0D6B193255E70050087E080 /* 06.usdz in Resources */,
-				20F3398C253D0772004DF063 /* Nsymbol.usdz in Resources */,
-				B0D6B19B255E703A0087E080 /* 08.usdz in Resources */,
-				B0D6B192255E70050087E080 /* 07.usdz in Resources */,
-				B0D6B196255E70050087E080 /* 05.usdz in Resources */,
-				B0D6B185255E24D80087E080 /* 01.usdz in Resources */,
+				202DD6172562C07F00FB868C /* 02.usdz in Resources */,
+				202DD6422562C0BC00FB868C /* 06.usdz in Resources */,
+				202DD6242562C09B00FB868C /* 03.usdz in Resources */,
+				202DD6532562C0C800FB868C /* 08.usdz in Resources */,
+				202DD6382562C0B400FB868C /* 05.usdz in Resources */,
+				202DD60A2562C06B00FB868C /* 01.usdz in Resources */,
 				20F33965253CF2B3004DF063 /* LaunchScreen.storyboard in Resources */,
-				B0D6B194255E70050087E080 /* 04.usdz in Resources */,
 				20F33962253CF2B3004DF063 /* Assets.xcassets in Resources */,
 				20F33960253CF2B2004DF063 /* Main.storyboard in Resources */,
-				B0D6B195255E70050087E080 /* 02.usdz in Resources */,
+				202DD6492562C0C200FB868C /* 07.usdz in Resources */,
+				202DD62E2562C0A900FB868C /* 04.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +305,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				202DD6252562C09B00FB868C /* 03.usdz in Resources */,
+				202DD60B2562C06B00FB868C /* 01.usdz in Resources */,
+				202DD64A2562C0C200FB868C /* 07.usdz in Resources */,
+				202DD6542562C0C800FB868C /* 08.usdz in Resources */,
+				202DD6182562C07F00FB868C /* 02.usdz in Resources */,
+				202DD6432562C0BC00FB868C /* 06.usdz in Resources */,
+				202DD6392562C0B400FB868C /* 05.usdz in Resources */,
+				202DD62F2562C0A900FB868C /* 04.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +320,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				202DD6262562C09B00FB868C /* 03.usdz in Resources */,
+				202DD60C2562C06B00FB868C /* 01.usdz in Resources */,
+				202DD64B2562C0C200FB868C /* 07.usdz in Resources */,
+				202DD6552562C0C800FB868C /* 08.usdz in Resources */,
+				202DD6192562C07F00FB868C /* 02.usdz in Resources */,
+				202DD6442562C0BC00FB868C /* 06.usdz in Resources */,
+				202DD63A2562C0B400FB868C /* 05.usdz in Resources */,
+				202DD6302562C0A900FB868C /* 04.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +341,7 @@
 				20F3395B253CF2B2004DF063 /* ViewController.swift in Sources */,
 				012D35C12555387D00BAFA98 /* HomeScreenViewController.swift in Sources */,
 				20F33959253CF2B2004DF063 /* AppDelegate.swift in Sources */,
+				202DD6632562D2A200FB868C /* Puzzle1.rcproject in Sources */,
 				20F3395D253CF2B2004DF063 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				202DD6642562D2A200FB868C /* Puzzle1.rcproject in Sources */,
 				20F33970253CF2B3004DF063 /* nucleARTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				202DD6652562D2A200FB868C /* Puzzle1.rcproject in Sources */,
 				20F3397B253CF2B3004DF063 /* nucleARUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,7 +521,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4XNJ36AV2F;
+				DEVELOPMENT_TEAM = LQMWUYV47K;
 				INFOPLIST_FILE = nucleAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -497,7 +541,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4XNJ36AV2F;
+				DEVELOPMENT_TEAM = LQMWUYV47K;
 				INFOPLIST_FILE = nucleAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
