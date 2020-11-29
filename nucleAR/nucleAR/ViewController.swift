@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     
     //setup variables for Puzzle 1
     var anchorPuzzle1:Puzzle1.P1!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -131,8 +132,10 @@ class ViewController: UIViewController {
     
     // Tap function for puzzle 2 items
     @IBAction func Tappy(_ sender: UITapGestureRecognizer) {
-        // start Puzzle 1
+        
+        //start Puzzle 1
         anchorPuzzle1.notifications.puzzle1Notification.post()
+
         // locate where the user is tapping
         let tapLocation = sender.location(in: arMagicView)
                 // configuring success label for the right answer
