@@ -33,9 +33,8 @@ class ViewController: UIViewController {
         //setting up anchor for Puzzle 1
         anchorPuzzle1 = try! Puzzle1.loadP1()
         anchorPuzzle1.generateCollisionShapes(recursive: true)
-        arMagicView.scene.anchors.append(anchorPuzzle1)
+        arMagicView.scene.addAnchor(anchorPuzzle1)
         
-        anchorPuzzle1.notifications.puzzle1Notification.post()
        }
     
     //function to execute timer
