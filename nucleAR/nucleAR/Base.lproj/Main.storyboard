@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -97,5 +98,60 @@
             </objects>
             <point key="canvasLocation" x="138" y="134"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="J5E-me-Zws">
+            <objects>
+                <viewController id="xcA-Uv-ObS" customClass="P3ViewController" customModule="nucleAR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VEG-0N-0fQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y0I-F3-Pho">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </arscnView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bnS-2D-vKp">
+                                <rect key="frame" x="186" y="130.5" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYc-k7-3XZ">
+                                <rect key="frame" x="348" y="44" width="46" height="30"/>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="resetButton:" destination="xcA-Uv-ObS" eventType="touchUpInside" id="IBE-kR-bEx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IUE-FW-FX0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bnS-2D-vKp" firstAttribute="leading" secondItem="IUE-FW-FX0" secondAttribute="leading" constant="186" id="4sj-3y-0vu"/>
+                            <constraint firstItem="y0I-F3-Pho" firstAttribute="top" secondItem="IUE-FW-FX0" secondAttribute="top" id="5Wn-Jv-znf"/>
+                            <constraint firstItem="y0I-F3-Pho" firstAttribute="leading" secondItem="IUE-FW-FX0" secondAttribute="leading" id="DyT-dm-kll"/>
+                            <constraint firstItem="IUE-FW-FX0" firstAttribute="bottom" secondItem="bnS-2D-vKp" secondAttribute="bottom" constant="711" id="JV7-FL-gBi"/>
+                            <constraint firstItem="IUE-FW-FX0" firstAttribute="trailing" secondItem="UYc-k7-3XZ" secondAttribute="trailing" constant="20" id="TIg-OD-6JM"/>
+                            <constraint firstItem="UYc-k7-3XZ" firstAttribute="leading" secondItem="IUE-FW-FX0" secondAttribute="leading" constant="348" id="TWa-G3-zQB"/>
+                            <constraint firstItem="IUE-FW-FX0" firstAttribute="bottom" secondItem="y0I-F3-Pho" secondAttribute="bottom" id="U7C-8J-amg"/>
+                            <constraint firstItem="IUE-FW-FX0" firstAttribute="bottom" secondItem="UYc-k7-3XZ" secondAttribute="bottom" constant="788" id="Ymh-uI-koc"/>
+                            <constraint firstItem="IUE-FW-FX0" firstAttribute="trailing" secondItem="y0I-F3-Pho" secondAttribute="trailing" id="dp0-9W-ENZ"/>
+                            <constraint firstItem="IUE-FW-FX0" firstAttribute="trailing" secondItem="bnS-2D-vKp" secondAttribute="trailing" constant="186" id="g8U-jz-HQz"/>
+                            <constraint firstItem="UYc-k7-3XZ" firstAttribute="top" secondItem="IUE-FW-FX0" secondAttribute="top" id="oVg-3o-K0d"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="y0I-F3-Pho" id="eCO-Q7-g0R"/>
+                        <outlet property="sceneView" destination="y0I-F3-Pho" id="yaM-tT-MnV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x8b-1R-wjK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="963.76811594202911" y="124.55357142857142"/>
+        </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

@@ -22,41 +22,7 @@
                         "__version" : 1
                       },
                       "actionGroups" : [
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
-                                          "audioType" : "play",
-                                          "filePath" : "audio:com.apple.rc.audio.electronic.bass-fx-01\/Bass%20FX%2001.caf",
-                                          "loops" : false,
-                                          "multiplePerformType" : "ignore request",
-                                          "target" : [
-                                            "CC1BEAEA-E5ED-4725-B1F3-5CB0831549D3"
-                                          ],
-                                          "volume" : 0.14368249265939598
-                                        },
-                                        "name" : {
-                                          "type" : "audio"
-                                        }
-                                      },
-                                      "identifier" : "3C1AF1F9-A66D-4740-A6C1-A9525127577A",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "6B215382-D66A-4C2B-96F8-73D6982D6614",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        }
+
                       ],
                       "color" : [
                         0.364705890417099,
@@ -2264,76 +2230,7 @@
                         "__version" : 1
                       },
                       "actionGroups" : [
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
-                                          "audioType" : "play",
-                                          "filePath" : "audio:com.apple.rc.audio.electronic.liquid-drops-fx-01\/Liquid%20Drops%20FX%2001.caf",
-                                          "loops" : false,
-                                          "target" : [
 
-                                          ],
-                                          "volume" : 0.5
-                                        },
-                                        "name" : {
-                                          "arguments" : "stereoBypass",
-                                          "type" : "soundtrack"
-                                        }
-                                      },
-                                      "identifier" : "F4D4DFD7-9EBC-42C6-B513-964F8BB7EE58",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "9FB4468D-8AF0-45E8-8CF3-18E598AC1D4D",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
-                                          "audioType" : "play",
-                                          "filePath" : "audio:com.apple.rc.audio.miscellaneous.happy-chime-fx-03\/Happy%20Chime%20FX%2003.caf",
-                                          "loops" : false,
-                                          "multiplePerformType" : "ignore request",
-                                          "target" : [
-                                            "717A31A1-CABB-4685-B186-5B5DCE803DEC"
-                                          ],
-                                          "volume" : 0.5
-                                        },
-                                        "name" : {
-                                          "type" : "audio"
-                                        }
-                                      },
-                                      "identifier" : "725A2B20-29B0-47F1-9E9B-46271DB078EA",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "DE19A132-3718-4596-913D-2B594074A712",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        }
                       ],
                       "color" : [
                         0.364705890417099,

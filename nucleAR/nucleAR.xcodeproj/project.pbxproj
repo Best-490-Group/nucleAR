@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		012D35C12555387D00BAFA98 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D35C02555387D00BAFA98 /* HomeScreenViewController.swift */; };
+		0174675D2583539F009930DC /* P3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174675C2583539F009930DC /* P3ViewController.swift */; };
+		0174676225835541009930DC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 0174676125835541009930DC /* art.scnassets */; };
 		202DD60A2562C06B00FB868C /* 01.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6092562C06B00FB868C /* 01.usdz */; };
 		202DD60B2562C06B00FB868C /* 01.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6092562C06B00FB868C /* 01.usdz */; };
 		202DD60C2562C06B00FB868C /* 01.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6092562C06B00FB868C /* 01.usdz */; };
@@ -64,6 +66,8 @@
 
 /* Begin PBXFileReference section */
 		012D35C02555387D00BAFA98 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		0174675C2583539F009930DC /* P3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P3ViewController.swift; sourceTree = "<group>"; };
+		0174676125835541009930DC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		202DD6092562C06B00FB868C /* 01.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 01.usdz; sourceTree = "<group>"; };
 		202DD6162562C07F00FB868C /* 02.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 02.usdz; sourceTree = "<group>"; };
 		202DD6232562C09B00FB868C /* 03.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 03.usdz; sourceTree = "<group>"; };
@@ -162,6 +166,8 @@
 				20F33963253CF2B3004DF063 /* LaunchScreen.storyboard */,
 				20F3395E253CF2B2004DF063 /* Main.storyboard */,
 				20F33966253CF2B3004DF063 /* Info.plist */,
+				0174675C2583539F009930DC /* P3ViewController.swift */,
+				0174676125835541009930DC /* art.scnassets */,
 			);
 			path = nucleAR;
 			sourceTree = "<group>";
@@ -288,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				202DD6172562C07F00FB868C /* 02.usdz in Resources */,
+				0174676225835541009930DC /* art.scnassets in Resources */,
 				202DD6422562C0BC00FB868C /* 06.usdz in Resources */,
 				202DD6242562C09B00FB868C /* 03.usdz in Resources */,
 				202DD6532562C0C800FB868C /* 08.usdz in Resources */,
@@ -339,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20F3395B253CF2B2004DF063 /* ViewController.swift in Sources */,
+				0174675D2583539F009930DC /* P3ViewController.swift in Sources */,
 				012D35C12555387D00BAFA98 /* HomeScreenViewController.swift in Sources */,
 				20F33959253CF2B2004DF063 /* AppDelegate.swift in Sources */,
 				202DD6632562D2A200FB868C /* Puzzle1.rcproject in Sources */,
@@ -521,7 +529,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LQMWUYV47K;
+				DEVELOPMENT_TEAM = AFT49TZ2SR;
 				INFOPLIST_FILE = nucleAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -541,7 +549,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LQMWUYV47K;
+				DEVELOPMENT_TEAM = AFT49TZ2SR;
 				INFOPLIST_FILE = nucleAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
