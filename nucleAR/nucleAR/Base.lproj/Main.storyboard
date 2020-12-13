@@ -76,7 +76,6 @@
                     <navigationItem key="navigationItem" id="hCD-aE-Lgq"/>
                     <connections>
                         <outlet property="arMagicView" destination="8bC-Xf-vdC" id="TPV-4x-avp"/>
-                        <outlet property="navButton" destination="Afy-Zq-RN9" id="9cB-pz-Q9M"/>
                         <outlet property="timerLabel" destination="bYM-aP-qKr" id="Qne-jv-QgL"/>
                     </connections>
                 </viewController>
@@ -95,82 +94,8 @@
                     <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <size key="shadowOffset" width="2" height="-1"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Afy-Zq-RN9">
-                    <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="Button"/>
-                    <connections>
-                        <action selector="TapDeallocate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4zX-Yh-SwD"/>
-                        <segue destination="l9T-gx-DnB" kind="custom" identifier="transitionToPuzzleTwo" customClass="SegueNavigationReplaceTop" customModule="nucleAR" customModuleProvider="target" id="fjQ-b0-kUr"/>
-                    </connections>
-                </button>
             </objects>
             <point key="canvasLocation" x="138" y="134"/>
-        </scene>
-        <!--Puzzle Two Hint-->
-        <scene sceneID="S1S-BW-d1g">
-            <objects>
-                <viewController id="l9T-gx-DnB" customClass="PuzzleTwoHint" customModule="nucleAR" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="UgY-Iq-p4a">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a clue for the second puzzle! " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lib-dM-ub9">
-                                <rect key="frame" x="67" y="426" width="280" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="LPc-ut-RfP">
-                                <rect key="frame" x="271" y="752" width="76" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Continue"/>
-                                <connections>
-                                    <segue destination="b2b-B7-Wpz" kind="presentation" modalPresentationStyle="fullScreen" id="feh-9d-8ty"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="lnw-u6-pYL"/>
-                        <color key="backgroundColor" red="0.64398592710000002" green="0.80083698029999995" blue="0.72940462829999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                    </view>
-                    <connections>
-                        <outlet property="clue" destination="lib-dM-ub9" id="yUF-KA-qOt"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XM7-ND-azR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="947.82608695652186" y="133.92857142857142"/>
-        </scene>
-        <!--SecondVC-->
-        <scene sceneID="oxU-OG-kAq">
-            <objects>
-                <viewController id="b2b-B7-Wpz" customClass="SecondVC" customModule="nucleAR" customModuleProvider="target" sceneMemberID="viewController">
-                    <arView key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="70z-Vv-hNZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    </arView>
-                    <navigationItem key="navigationItem" id="EDX-jE-bvz"/>
-                    <connections>
-                        <outlet property="secondAR" destination="70z-Vv-hNZ" id="kl5-4A-lsz"/>
-                        <outlet property="timerTwo" destination="ySn-zE-OLu" id="Ml4-gG-CVc"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bw3-ir-hUr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ySn-zE-OLu">
-                    <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <tapGestureRecognizer id="0Wt-VM-UoQ">
-                    <connections>
-                        <action selector="onTappy:" destination="b2b-B7-Wpz" id="cly-CK-xRe"/>
-                    </connections>
-                </tapGestureRecognizer>
-            </objects>
-            <point key="canvasLocation" x="1957" y="134"/>
         </scene>
     </scenes>
 </document>

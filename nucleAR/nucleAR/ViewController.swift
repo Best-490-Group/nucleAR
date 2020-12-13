@@ -66,8 +66,4 @@ class ViewController: UIViewController {
          return String(format: "%02d:%02d", min, sec)
      }
     
-   
-    @IBAction func TapDeallocate(_ sender: UIButton) {
-        self.dismiss(animated:true, completion: nil)
-    }
 }

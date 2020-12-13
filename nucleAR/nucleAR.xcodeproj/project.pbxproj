@@ -35,7 +35,6 @@
 		202DD6632562D2A200FB868C /* Puzzle1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 202DD6622562D2A200FB868C /* Puzzle1.rcproject */; };
 		202DD6642562D2A200FB868C /* Puzzle1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 202DD6622562D2A200FB868C /* Puzzle1.rcproject */; };
 		202DD6652562D2A200FB868C /* Puzzle1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 202DD6622562D2A200FB868C /* Puzzle1.rcproject */; };
-		20D50BCD2585EA8F0098708C /* Other.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 20D50BCC2585EA8F0098708C /* Other.rcproject */; };
 		20F33959253CF2B2004DF063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F33958253CF2B2004DF063 /* AppDelegate.swift */; };
 		20F3395B253CF2B2004DF063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3395A253CF2B2004DF063 /* ViewController.swift */; };
 		20F33960253CF2B2004DF063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F3395E253CF2B2004DF063 /* Main.storyboard */; };
@@ -43,9 +42,6 @@
 		20F33965253CF2B3004DF063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F33963253CF2B3004DF063 /* LaunchScreen.storyboard */; };
 		20F33970253CF2B3004DF063 /* nucleARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3396F253CF2B3004DF063 /* nucleARTests.swift */; };
 		20F3397B253CF2B3004DF063 /* nucleARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3397A253CF2B3004DF063 /* nucleARUITests.swift */; };
-		B00C64872581EFCA005A2372 /* customSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C64862581EFCA005A2372 /* customSegue.swift */; };
-		B00C648C2581F035005A2372 /* PuzzleTwoHint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C648B2581F035005A2372 /* PuzzleTwoHint.swift */; };
-		B00C64912581F587005A2372 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C64902581F587005A2372 /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +72,6 @@
 		202DD6482562C0C200FB868C /* 07.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 07.usdz; sourceTree = "<group>"; };
 		202DD6522562C0C800FB868C /* 08.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 08.usdz; sourceTree = "<group>"; };
 		202DD6622562D2A200FB868C /* Puzzle1.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Puzzle1.rcproject; sourceTree = "<group>"; };
-		20D50BCC2585EA8F0098708C /* Other.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Other.rcproject; sourceTree = "<group>"; };
 		20F33955253CF2B2004DF063 /* nucleAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nucleAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F33958253CF2B2004DF063 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20F3395A253CF2B2004DF063 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,9 +85,6 @@
 		20F33976253CF2B3004DF063 /* nucleARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nucleARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F3397A253CF2B3004DF063 /* nucleARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nucleARUITests.swift; sourceTree = "<group>"; };
 		20F3397C253CF2B3004DF063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B00C64862581EFCA005A2372 /* customSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customSegue.swift; sourceTree = "<group>"; };
-		B00C648B2581F035005A2372 /* PuzzleTwoHint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleTwoHint.swift; sourceTree = "<group>"; };
-		B00C64902581F587005A2372 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,13 +156,9 @@
 				20F3395A253CF2B2004DF063 /* ViewController.swift */,
 				012D35C02555387D00BAFA98 /* HomeScreenViewController.swift */,
 				202DD6622562D2A200FB868C /* Puzzle1.rcproject */,
-				20D50BCC2585EA8F0098708C /* Other.rcproject */,
 				20F33963253CF2B3004DF063 /* LaunchScreen.storyboard */,
 				20F3395E253CF2B2004DF063 /* Main.storyboard */,
 				20F33966253CF2B3004DF063 /* Info.plist */,
-				B00C64862581EFCA005A2372 /* customSegue.swift */,
-				B00C648B2581F035005A2372 /* PuzzleTwoHint.swift */,
-				B00C64902581F587005A2372 /* SecondVC.swift */,
 			);
 			path = nucleAR;
 			sourceTree = "<group>";
@@ -349,11 +337,7 @@
 			files = (
 				20F3395B253CF2B2004DF063 /* ViewController.swift in Sources */,
 				012D35C12555387D00BAFA98 /* HomeScreenViewController.swift in Sources */,
-				B00C64912581F587005A2372 /* SecondVC.swift in Sources */,
-				20D50BCD2585EA8F0098708C /* Other.rcproject in Sources */,
 				20F33959253CF2B2004DF063 /* AppDelegate.swift in Sources */,
-				B00C648C2581F035005A2372 /* PuzzleTwoHint.swift in Sources */,
-				B00C64872581EFCA005A2372 /* customSegue.swift in Sources */,
 				202DD6632562D2A200FB868C /* Puzzle1.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
