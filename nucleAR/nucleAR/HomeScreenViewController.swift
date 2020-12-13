@@ -8,12 +8,17 @@ import UIKit
 
 class HomeScreenViewController: UIViewController {
 
+    @IBOutlet weak var startButton: UIButton!
     @IBOutlet weak var logo: UIImageView!
-    @IBOutlet weak var firstTitle: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        firstTitle.text = "nucleAR"
+    
+        // Customize button
+        startButton.frame = CGRect(x: 160, y: 160, width: 160, height: 160)
+        startButton.layer.cornerRadius = 18.0
+        startButton.layer.borderWidth = 1.0
+        startButton.clipsToBounds = true
     }
     
 
