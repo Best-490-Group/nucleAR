@@ -17,7 +17,7 @@ enum BodyType : Int {
     case type2 = 2
 }
 
-class P3ViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContactDelegate {
+class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
 
     @IBOutlet weak var label: UILabel!
     

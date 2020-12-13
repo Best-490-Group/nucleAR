@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     var totalTime = 60
     
     //setup variables for Puzzle 1
-    var anchorPuzzle1: Puzzle1.P1!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,15 +26,10 @@ class ViewController: UIViewController {
         timerLabel.center = CGPoint(x: 300, y: 50)
         beginTimer()
         
-        // configuring tap gesture recognizer
-        //let itemTap = UITapGestureRecognizer(target: self, action: #selector(Tappy))
-        //view.addGestureRecognizer(itemTap)
-        
-        //setting up anchor for Puzzle 1
-        anchorPuzzle1 = try! Puzzle1.loadP1()
+        var anchorPuzzle1: MyScene.Box!
+        anchorPuzzle1 = try! MyScene.loadBox()
         anchorPuzzle1.generateCollisionShapes(recursive: true)
         arMagicView.scene.addAnchor(anchorPuzzle1)
-        //arMagicView.scene.anchors.append(anchorPuzzle1)
     }
        
     //function to execute timer

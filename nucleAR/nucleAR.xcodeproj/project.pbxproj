@@ -38,6 +38,7 @@
 		202DD6642562D2A200FB868C /* Puzzle1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 202DD6622562D2A200FB868C /* Puzzle1.rcproject */; };
 		202DD6652562D2A200FB868C /* Puzzle1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 202DD6622562D2A200FB868C /* Puzzle1.rcproject */; };
 		209F5E282573705A0042AB62 /* reactor.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 209F5E272573705A0042AB62 /* reactor.rcproject */; };
+		20A756CE25861AF1003F3961 /* MyScene.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 20A756CD25861AF1003F3961 /* MyScene.rcproject */; };
 		20F33959253CF2B2004DF063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F33958253CF2B2004DF063 /* AppDelegate.swift */; };
 		20F3395B253CF2B2004DF063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3395A253CF2B2004DF063 /* ViewController.swift */; };
 		20F33960253CF2B2004DF063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F3395E253CF2B2004DF063 /* Main.storyboard */; };
@@ -78,6 +79,7 @@
 		202DD6522562C0C800FB868C /* 08.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 08.usdz; sourceTree = "<group>"; };
 		202DD6622562D2A200FB868C /* Puzzle1.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Puzzle1.rcproject; sourceTree = "<group>"; };
 		209F5E272573705A0042AB62 /* reactor.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = reactor.rcproject; sourceTree = "<group>"; };
+		20A756CD25861AF1003F3961 /* MyScene.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = MyScene.rcproject; sourceTree = "<group>"; };
 		20F33955253CF2B2004DF063 /* nucleAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nucleAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F33958253CF2B2004DF063 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20F3395A253CF2B2004DF063 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				20F33966253CF2B3004DF063 /* Info.plist */,
 				0174675C2583539F009930DC /* P3ViewController.swift */,
 				0174676125835541009930DC /* art.scnassets */,
+				20A756CD25861AF1003F3961 /* MyScene.rcproject */,
 			);
 			path = nucleAR;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 			files = (
 				20F3395B253CF2B2004DF063 /* ViewController.swift in Sources */,
 				0174675D2583539F009930DC /* P3ViewController.swift in Sources */,
+				20A756CE25861AF1003F3961 /* MyScene.rcproject in Sources */,
 				012D35C12555387D00BAFA98 /* HomeScreenViewController.swift in Sources */,
 				20F33959253CF2B2004DF063 /* AppDelegate.swift in Sources */,
 				202DD6632562D2A200FB868C /* Puzzle1.rcproject in Sources */,
@@ -529,13 +533,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AFT49TZ2SR;
+				DEVELOPMENT_TEAM = LQMWUYV47K;
 				INFOPLIST_FILE = nucleAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sheef.nucleAR;
+				PRODUCT_BUNDLE_IDENTIFIER = jguev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -549,13 +553,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AFT49TZ2SR;
+				DEVELOPMENT_TEAM = LQMWUYV47K;
 				INFOPLIST_FILE = nucleAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sheef.nucleAR;
+				PRODUCT_BUNDLE_IDENTIFIER = jguev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
