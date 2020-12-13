@@ -40,7 +40,7 @@ class P3ViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContactDe
         self.sceneView.autoenablesDefaultLighting = true
         
         // Show world origin
-        self.sceneView.debugOptions = [ARSCNDebugOptions.showWorldOrigin]
+        //self.sceneView.debugOptions = [ARSCNDebugOptions.showWorldOrigin]
         
         // Prompt user the problem
         self.showText(textShow: "The test tube is unstable! Tap on the element that stablizes, then aim and tap the screen to throw it in!")
@@ -50,9 +50,9 @@ class P3ViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContactDe
         
         
         // Add physics to tube
-        let sceneNode = scene.rootNode.childNode(withName: "emptynode", recursively: false)
-        sceneNode?.physicsBody = SCNPhysicsBody(type: .static, shape: SCNPhysicsShape(node: sceneNode!, options: [SCNPhysicsShape.Option.keepAsCompound: true, SCNPhysicsShape.Option.type: SCNPhysicsShape.ShapeType.concavePolyhedron]))
-        sceneNode?.name = "scene"
+        let sceneNode = scene.rootNode.childNode(withName: "emptynode", recursively: true)
+        sceneNode?.physicsBody = SCNPhysicsBody(type: .static, shape: SCNPhysicsShape(node: sceneNode!, options: [SCNPhysicsShape.Option.keepAsCompound: false, SCNPhysicsShape.Option.type: SCNPhysicsShape.ShapeType.concavePolyhedron]))
+        
         
         // Change text
         var theTextNode: SCNText!
@@ -140,13 +140,12 @@ class P3ViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContactDe
     /// Called when ball touches bottom plane
     func physicsWorld(_ world: SCNPhysicsWorld, didBegin contact: SCNPhysicsContact) {
         
-        print(contact.nodeA.name)
-        print(contact.nodeB.name)
+        userHasSelected = false
+        self.showText(textShow: "Correct")
         DispatchQueue.main.async {
             
         }
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-            self.showText(textShow: "Correct")
         
             // Go To next screen
             self.removeAllNodes()
