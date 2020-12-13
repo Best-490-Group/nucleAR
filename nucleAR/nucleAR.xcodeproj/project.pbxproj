@@ -34,10 +34,6 @@
 		202DD6532562C0C800FB868C /* 08.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6522562C0C800FB868C /* 08.usdz */; };
 		202DD6542562C0C800FB868C /* 08.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6522562C0C800FB868C /* 08.usdz */; };
 		202DD6552562C0C800FB868C /* 08.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6522562C0C800FB868C /* 08.usdz */; };
-		202DD6632562D2A200FB868C /* Puzzle1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 202DD6622562D2A200FB868C /* Puzzle1.rcproject */; };
-		202DD6642562D2A200FB868C /* Puzzle1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 202DD6622562D2A200FB868C /* Puzzle1.rcproject */; };
-		202DD6652562D2A200FB868C /* Puzzle1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 202DD6622562D2A200FB868C /* Puzzle1.rcproject */; };
-		209F5E282573705A0042AB62 /* reactor.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 209F5E272573705A0042AB62 /* reactor.rcproject */; };
 		20A756CE25861AF1003F3961 /* MyScene.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 20A756CD25861AF1003F3961 /* MyScene.rcproject */; };
 		20F33959253CF2B2004DF063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F33958253CF2B2004DF063 /* AppDelegate.swift */; };
 		20F3395B253CF2B2004DF063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3395A253CF2B2004DF063 /* ViewController.swift */; };
@@ -77,8 +73,6 @@
 		202DD6412562C0BC00FB868C /* 06.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 06.usdz; sourceTree = "<group>"; };
 		202DD6482562C0C200FB868C /* 07.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 07.usdz; sourceTree = "<group>"; };
 		202DD6522562C0C800FB868C /* 08.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 08.usdz; sourceTree = "<group>"; };
-		202DD6622562D2A200FB868C /* Puzzle1.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Puzzle1.rcproject; sourceTree = "<group>"; };
-		209F5E272573705A0042AB62 /* reactor.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = reactor.rcproject; sourceTree = "<group>"; };
 		20A756CD25861AF1003F3961 /* MyScene.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = MyScene.rcproject; sourceTree = "<group>"; };
 		20F33955253CF2B2004DF063 /* nucleAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nucleAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F33958253CF2B2004DF063 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -163,8 +157,6 @@
 				20F33958253CF2B2004DF063 /* AppDelegate.swift */,
 				20F3395A253CF2B2004DF063 /* ViewController.swift */,
 				012D35C02555387D00BAFA98 /* HomeScreenViewController.swift */,
-				202DD6622562D2A200FB868C /* Puzzle1.rcproject */,
-				209F5E272573705A0042AB62 /* reactor.rcproject */,
 				20F33963253CF2B3004DF063 /* LaunchScreen.storyboard */,
 				20F3395E253CF2B2004DF063 /* Main.storyboard */,
 				20F33966253CF2B3004DF063 /* Info.plist */,
@@ -353,8 +345,6 @@
 				20A756CE25861AF1003F3961 /* MyScene.rcproject in Sources */,
 				012D35C12555387D00BAFA98 /* HomeScreenViewController.swift in Sources */,
 				20F33959253CF2B2004DF063 /* AppDelegate.swift in Sources */,
-				202DD6632562D2A200FB868C /* Puzzle1.rcproject in Sources */,
-				209F5E282573705A0042AB62 /* reactor.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +352,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				202DD6642562D2A200FB868C /* Puzzle1.rcproject in Sources */,
 				20F33970253CF2B3004DF063 /* nucleARTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,7 +360,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				202DD6652562D2A200FB868C /* Puzzle1.rcproject in Sources */,
 				20F3397B253CF2B3004DF063 /* nucleARUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
