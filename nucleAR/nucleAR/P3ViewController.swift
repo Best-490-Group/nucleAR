@@ -56,10 +56,10 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
         
         
         // Change text
-        var theTextNode: SCNText!
-        let textNode = scene.rootNode.childNode(withName: "text", recursively: true)
-        theTextNode = textNode?.geometry as! SCNText
-        theTextNode.string = "Test Tube"
+//        var theTextNode: SCNText!
+//        let textNode = scene.rootNode.childNode(withName: "text", recursively: true)
+//        theTextNode = textNode?.geometry as! SCNText
+//        theTextNode.string = "Test Tube"
         
         
         // Set the scene to the view
@@ -71,10 +71,10 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
         
         // Create node to detect collision
         let contactNode = SCNNode()
-        contactNode.geometry = SCNBox(width: 0.1, height: 0.01, length: 0.1, chamferRadius: 0.33)
+        contactNode.geometry = SCNBox(width: 0.7, height: 0.01, length: 0.7, chamferRadius: 0.33)
         //contactNode.geometry?.firstMaterial?.locksAmbientWithDiffuse = true
         contactNode.geometry?.firstMaterial?.diffuse.contents = UIColor.red
-        contactNode.position = SCNVector3(0,0,-6) //pos to the right
+        contactNode.position = SCNVector3(0,-3,-8) //pos to the right
         contactNode.physicsBody = SCNPhysicsBody(type: .static, shape: nil)
         contactNode.physicsBody?.categoryBitMask = BodyType.type1.rawValue
         self.sceneView.scene.rootNode.addChildNode(contactNode)
@@ -176,9 +176,18 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
                 showText(textShow: "Correct element tapped, now tap the screen to shoot it into the tube!")
                 // Allows user to "shoot" ball
                 userHasSelected = true
+                self.deleteArgonAndHelium()
             }
             else if (results.name == "helium") {
                 showText(textShow: "Helium is incorrect. You just blew up the whole facility!!!!😡")
+            }
+        }
+    }
+    
+    func deleteArgonAndHelium() {
+        sceneView.scene.rootNode.enumerateChildNodes { (node, stop) in
+            if (node.name == "argon" || node.name == "helium") {
+                node.removeFromParentNode()
             }
         }
     }
