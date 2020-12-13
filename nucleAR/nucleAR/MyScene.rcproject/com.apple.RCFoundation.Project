@@ -1187,9 +1187,9 @@
                   0.36755818128585815,
                   0.92829591035842896,
                   0,
-                  0.0024780631065368652,
-                  1.1611044406890869,
-                  3.441577672958374,
+                  0.0029415208846330643,
+                  1.0182616710662842,
+                  3.0136945247650146,
                   1
                 ],
                 "sceneTransform" : [
@@ -2298,7 +2298,78 @@
                         "__version" : 1
                       },
                       "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildOutAnimationType" : "none",
+                                          "distance" : 1,
+                                          "duration" : 3,
+                                          "fadeOut" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "9D5DA54F-F620-4278-AC71-1BD683BCB266",
+                                            "56B610CD-752C-44F7-AF03-2661EBE142C1",
+                                            "ED8A8550-7ADA-4BA5-BFDE-7CB1704DEF31"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "hide"
+                                        }
+                                      },
+                                      "identifier" : "CF96BA9A-82F4-46C2-8277-64305D04C0AF",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "66276784-FB53-468A-ABF6-CC4491449EEE",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "target" : [
 
+                                          ],
+                                          "userIdentifier" : "ReactorEnding"
+                                        },
+                                        "name" : {
+                                          "type" : "custom"
+                                        }
+                                      },
+                                      "identifier" : "074A54AC-CCA5-4589-82F2-0896F90A734E",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "D9EFEC89-CC99-4206-B20D-621737E8E118",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
                       ],
                       "color" : [
                         0.364705890417099,
@@ -2306,7 +2377,7 @@
                         0.69019609689712524,
                         1
                       ],
-                      "identifier" : "8DDED024-24BE-44B8-8004-DE182DEA3504",
+                      "identifier" : "A27440A9-EBB2-4788-9175-52B6F8F9023B",
                       "isEnabled" : true,
                       "isLooping" : false,
                       "isModal" : false,
@@ -2317,11 +2388,11 @@
                             {
                               "configurationBox" : {
                                 "configuration" : {
-                                  "userIdentifier" : "ReactorEnding"
+                                  "userIdentifier" : "TriggerAction"
                                 },
                                 "name" : "custom"
                               },
-                              "identifier" : "EF8299EE-D03C-4DEC-8E7A-0D8097702B57",
+                              "identifier" : "EE408FDE-BFBC-4FC8-B662-12D2C7CFB544",
                               "isEnabled" : true
                             }
                           ],
@@ -3152,9 +3223,9 @@
                   0.36755818128585815,
                   0.92829591035842896,
                   0,
-                  0.0024780631065368652,
-                  1.1611044406890869,
-                  3.441577672958374,
+                  0.0042661437764763832,
+                  1.0789843797683716,
+                  3.185356616973877,
                   1
                 ],
                 "sceneTransform" : [
