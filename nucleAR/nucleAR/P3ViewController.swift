@@ -151,11 +151,8 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
             // Go To next screen
             self.removeAllNodes()
             
-            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "toJohanna")
-            self.navigationController?.pushViewController(vc, animated: true)
-//            if let toP1VC = self.storyboard?.instantiateViewController(identifier: "toJohanna") {
-//                self.navigationController?.pushViewController(toP1VC, animated: true)
-//            }
+            self.performSegue(withIdentifier: "toPuzzleOne", sender: nil)
+
             
         }
     }
