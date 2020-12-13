@@ -71,7 +71,7 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
         
         // Create node to detect collision
         let contactNode = SCNNode()
-        contactNode.geometry = SCNBox(width: 0.1, height: 0.01, length: 0.1, chamferRadius: 0.33)
+        contactNode.geometry = SCNBox(width: 0.7, height: 0.01, length: 0.7, chamferRadius: 0.33)
         //contactNode.geometry?.firstMaterial?.locksAmbientWithDiffuse = true
         contactNode.geometry?.firstMaterial?.diffuse.contents = UIColor.red
         contactNode.position = SCNVector3(0,-3,-8) //pos to the right
