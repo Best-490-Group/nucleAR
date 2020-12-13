@@ -1,0 +1,22 @@
+[
+  {
+    "libraryIdentifier" : "890818cfeda66d94cf11fede68e5660a",
+    "format" : "image",
+    "displayName" : "inl_logo.png"
+  },
+  {
+    "libraryIdentifier" : "0ee70e719a88a7d06ca8fd4c5fd98fe1",
+    "format" : "model",
+    "displayName" : "08.usdz"
+  },
+  {
+    "libraryIdentifier" : "a419192dedf756ab0259ca4410a8995a",
+    "format" : "image",
+    "displayName" : "lock.png"
+  },
+  {
+    "libraryIdentifier" : "b120e699677250951426cd1e4070f250",
+    "format" : "image",
+    "displayName" : "loading.jpeg"
+  }
+]
