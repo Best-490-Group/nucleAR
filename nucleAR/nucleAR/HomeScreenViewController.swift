@@ -8,6 +8,7 @@ import UIKit
 
 class HomeScreenViewController: UIViewController {
 
+    @IBOutlet weak var logo: UIImageView!
     @IBOutlet weak var firstTitle: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
