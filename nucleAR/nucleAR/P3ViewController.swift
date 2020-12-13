@@ -31,7 +31,7 @@ class P3ViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContactDe
         super.viewDidLoad()
 
         // Set the view's delegate
-        sceneView.delegate = self
+        //sceneView.delegate = self
         
         // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
@@ -40,7 +40,7 @@ class P3ViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContactDe
         self.sceneView.autoenablesDefaultLighting = true
         
         // Show world origin
-        //self.sceneView.debugOptions = [ARSCNDebugOptions.showWorldOrigin]
+        self.sceneView.debugOptions = [ARSCNDebugOptions.showWorldOrigin]
         
         // Prompt user the problem
         self.showText(textShow: "The test tube is unstable! Tap on the element that stablizes, then aim and tap the screen to throw it in!")
@@ -48,9 +48,11 @@ class P3ViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContactDe
         // Create a new scene
         let scene = SCNScene(named: "art.scnassets/reactor.scn")!
         
+        
         // Add physics to tube
         let sceneNode = scene.rootNode.childNode(withName: "emptynode", recursively: false)
         sceneNode?.physicsBody = SCNPhysicsBody(type: .static, shape: SCNPhysicsShape(node: sceneNode!, options: [SCNPhysicsShape.Option.keepAsCompound: true, SCNPhysicsShape.Option.type: SCNPhysicsShape.ShapeType.concavePolyhedron]))
+        sceneNode?.name = "scene"
         
         // Change text
         var theTextNode: SCNText!
@@ -58,18 +60,24 @@ class P3ViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContactDe
         theTextNode = textNode?.geometry as! SCNText
         theTextNode.string = "Test Tube"
         
-        // Extract plane
-        let plane = scene.rootNode.childNode(withName: "plane", recursively: false)
-        plane?.physicsBody = SCNPhysicsBody(type: .static, shape: nil)
-        plane?.physicsBody?.categoryBitMask = BodyType.type1.rawValue
-        
-        
         
         // Set the scene to the view
         sceneView.scene = scene
         
         // Present balls
         showBalls()
+        
+        
+        // Create node to detect collision
+        let contactNode = SCNNode()
+        contactNode.geometry = SCNBox(width: 0.1, height: 0.01, length: 0.1, chamferRadius: 0.33)
+        //contactNode.geometry?.firstMaterial?.locksAmbientWithDiffuse = true
+        contactNode.geometry?.firstMaterial?.diffuse.contents = UIColor.red
+        contactNode.position = SCNVector3(0,0,-6) //pos to the right
+        contactNode.physicsBody = SCNPhysicsBody(type: .static, shape: nil)
+        contactNode.physicsBody?.categoryBitMask = BodyType.type1.rawValue
+        self.sceneView.scene.rootNode.addChildNode(contactNode)
+        
         
         // Handle tap for selection of argon or helium
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleTap))
@@ -107,7 +115,7 @@ class P3ViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContactDe
             ball.physicsBody = body
             ball.physicsBody?.applyForce(SCNVector3(orientation.x * powerOfShot, orientation.y * powerOfShot, orientation.z * powerOfShot), asImpulse: true)
             //ball.physicsBody?.categoryBitMask = BodyType.type2.rawValue // This makes ball go thru
-            ball.physicsBody?.contactTestBitMask = BodyType.type2.rawValue
+            ball.physicsBody?.contactTestBitMask = BodyType.type1.rawValue
         
     
             self.sceneView.scene.rootNode.addChildNode(ball)
@@ -131,11 +139,15 @@ class P3ViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContactDe
     
     /// Called when ball touches bottom plane
     func physicsWorld(_ world: SCNPhysicsWorld, didBegin contact: SCNPhysicsContact) {
+        
+        print(contact.nodeA.name)
+        print(contact.nodeB.name)
         DispatchQueue.main.async {
             
         }
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
             self.showText(textShow: "Correct")
+        
             // Go To next screen
             self.removeAllNodes()
             

@@ -16,8 +16,7 @@ class ViewController: UIViewController {
     var totalTime = 60
     
     //setup variables for Puzzle 1
-    var anchorPuzzle1:Puzzle1.P1!
-    
+    //var anchorPuzzle1:Puzzle1.P1!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -32,9 +31,9 @@ class ViewController: UIViewController {
         //view.addGestureRecognizer(itemTap)
         
         //setting up anchor for Puzzle 1
-        anchorPuzzle1 = try! Puzzle1.loadP1()
-        anchorPuzzle1.generateCollisionShapes(recursive: true)
-        arMagicView.scene.addAnchor(anchorPuzzle1)
+//        anchorPuzzle1 = try! Puzzle1.loadP1()
+//        anchorPuzzle1.generateCollisionShapes(recursive: true)
+//        arMagicView.scene.addAnchor(anchorPuzzle1)
 //        arMagicView.scene.anchors.append(anchorPuzzle1)
         
 //        //setting up anchor with an AnchorEntity
