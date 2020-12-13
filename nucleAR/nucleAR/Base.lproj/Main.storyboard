@@ -47,7 +47,7 @@
                                 <rect key="frame" x="10" y="506" width="394" height="42"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Visit our website!"/>
+                                <state key="normal" title="Visit Navigating Nuclear!"/>
                                 <connections>
                                     <action selector="visitWebsiteButton:" destination="FkN-VL-1MM" eventType="touchUpInside" id="aHr-J3-KKg"/>
                                 </connections>
@@ -110,7 +110,7 @@
                     <size key="shadowOffset" width="2" height="-1"/>
                 </label>
             </objects>
-            <point key="canvasLocation" x="138" y="134"/>
+            <point key="canvasLocation" x="804" y="126"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="J5E-me-Zws">
@@ -159,7 +159,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x8b-1R-wjK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="963.76811594202911" y="124.55357142857142"/>
+            <point key="canvasLocation" x="87" y="126"/>
         </scene>
     </scenes>
     <resources>
