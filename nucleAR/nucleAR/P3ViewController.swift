@@ -23,13 +23,24 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
     
     @IBOutlet weak var sceneView: ARSCNView!
     
+    @IBOutlet var timerHoop: UILabel!
+    
     var powerOfShot: Float = 1.0
     
     var userHasSelected = false
     
+    //setup variables for timer
+    var timer: Timer?
+    var totalTime = 60
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // configuring timer label
+        timerHoop.frame = CGRect(x:10, y:0, width: 500, height: 200)
+        timerHoop.font = timerHoop.font.withSize(30)
+        timerHoop.center = CGPoint(x: 300, y: 50)
+        beginTimer()
 
         // Set the view's delegate
         //sceneView.delegate = self
@@ -86,8 +97,36 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
         
         // Collision Detection
         self.sceneView.scene.physicsWorld.contactDelegate = self
-        
+    
     }
+    
+    func beginTimer() {
+             self.totalTime = 120
+             self.timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(processTimer), userInfo: nil, repeats: true)
+             self.view.addSubview(timerHoop)
+         }
+    
+     //function to process timer value
+     @objc func processTimer() {
+             self.timerHoop.text = "Time Remaining: \(self.timeDisplay(self.totalTime))"
+             if totalTime > 0 {
+                 totalTime -= 1
+             } else {
+                 totalTime = 0
+                 if let timer = self.timer {
+                     //.invalidate() to stop timer
+                     timer.invalidate()
+                     self.timer = nil
+                 }
+             }
+         }
+    
+    //function to help format the time
+     func timeDisplay(_ totalSeconds: Int) -> String {
+         let sec: Int = totalSeconds % 60
+         let min: Int = (totalSeconds / 60) % 60
+         return String(format: "%02d:%02d", min, sec)
+     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -253,11 +292,13 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     */
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "toPuzzleOne" {
+            let destinationController = segue.destination as! ViewController
+            destinationController.timerString = timerHoop.text!
+        }
     }
-    */
 
 }
 
