@@ -123,6 +123,12 @@ class P3ViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContactDe
         }
     }
     
+    func removeAllNodes() {
+        self.sceneView.scene.rootNode.enumerateChildNodes { (node, stop) in
+            node.removeFromParentNode()
+        }
+    }
+    
     /// Called when ball touches bottom plane
     func physicsWorld(_ world: SCNPhysicsWorld, didBegin contact: SCNPhysicsContact) {
         DispatchQueue.main.async {
@@ -131,6 +137,8 @@ class P3ViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContactDe
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
             self.showText(textShow: "Correct")
             // Go To next screen
+            self.removeAllNodes()
+            
         }
     }
     @IBAction func resetButton(_ sender: Any) {
