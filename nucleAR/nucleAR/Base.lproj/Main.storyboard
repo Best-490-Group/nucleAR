@@ -131,6 +131,13 @@
                                     <action selector="resetButton:" destination="xcA-Uv-ObS" eventType="touchUpInside" id="IBE-kR-bEx"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eap-QJ-TU0">
+                                <rect key="frame" x="184" y="758" width="46" height="25"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="GYb-On-0eR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IUE-FW-FX0"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -139,9 +146,13 @@
                             <constraint firstItem="IUE-FW-FX0" firstAttribute="bottom" secondItem="bnS-2D-vKp" secondAttribute="bottom" constant="711" id="JV7-FL-gBi"/>
                             <constraint firstItem="IUE-FW-FX0" firstAttribute="trailing" secondItem="UYc-k7-3XZ" secondAttribute="trailing" constant="20" id="TIg-OD-6JM"/>
                             <constraint firstItem="UYc-k7-3XZ" firstAttribute="leading" secondItem="IUE-FW-FX0" secondAttribute="leading" constant="348" id="TWa-G3-zQB"/>
+                            <constraint firstItem="Eap-QJ-TU0" firstAttribute="top" secondItem="bnS-2D-vKp" secondAttribute="bottom" constant="607" id="V1O-Gg-LTl"/>
                             <constraint firstItem="IUE-FW-FX0" firstAttribute="bottom" secondItem="UYc-k7-3XZ" secondAttribute="bottom" constant="788" id="Ymh-uI-koc"/>
+                            <constraint firstItem="IUE-FW-FX0" firstAttribute="trailing" secondItem="Eap-QJ-TU0" secondAttribute="trailing" constant="184" id="Zeb-Eh-QDF"/>
                             <constraint firstItem="IUE-FW-FX0" firstAttribute="trailing" secondItem="bnS-2D-vKp" secondAttribute="trailing" constant="5" id="g8U-jz-HQz"/>
+                            <constraint firstItem="IUE-FW-FX0" firstAttribute="bottom" secondItem="Eap-QJ-TU0" secondAttribute="bottom" constant="79" id="mmS-Mv-VYV"/>
                             <constraint firstItem="UYc-k7-3XZ" firstAttribute="top" secondItem="IUE-FW-FX0" secondAttribute="top" id="oVg-3o-K0d"/>
+                            <constraint firstItem="Eap-QJ-TU0" firstAttribute="leading" secondItem="IUE-FW-FX0" secondAttribute="leading" constant="184" id="pHo-9e-Tdv"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="vsc-Ka-dpW"/>
@@ -155,6 +166,9 @@
             <point key="canvasLocation" x="963.76811594202911" y="124.55357142857142"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="GYb-On-0eR"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
