@@ -17,12 +17,15 @@
 These instructions will help you run our application on your local machine for development and testing purposes.
 
 ## Prerequisites
-Since our application is still in the development phases we will only be supporting the latest versions of IOS. For further updates on our platform availability make sure to check our GitHub repo in the future.
+Since our application is still in the development phases we will only be supporting the latest versions of IOS. For further updates on our platform availability make sure to check our GitHub repo in the future. 
 
-* macOS Catalina 10.15.4 and up
-* Xcode Version 12.1 and up
-* Swift Version 4.0 and up
-* iPhone Software Version 14 and up
+Disclaimer:
+Some earlier versions might run but the not all features will be supported.
+
+* macOS Big Sur 11.0.1 and up
+* Xcode Version 12.2 and up
+* Swift Version 5.0 and up
+* iPhone Software Version 14.2 and up
 
 ### Demo: Try it on mobile :iphone:
 
