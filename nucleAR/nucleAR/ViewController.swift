@@ -52,7 +52,12 @@ class ViewController: UIViewController {
                      //.invalidate() to stop timer
                      timerTwo.invalidate()
                      self.timerTwo = nil
-                 }
+                    
+                                self.arMagicView.scene.anchors.removeAll()
+                       
+        
+             }
+                
              }
          }
     
