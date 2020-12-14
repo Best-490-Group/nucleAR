@@ -297,6 +297,7 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
         if segue.identifier == "toPuzzleOne" {
             let destinationController = segue.destination as! ViewController
             destinationController.timerString = timerHoop.text!
+            destinationController.totalTimeCont = self.totalTime
         }
     }
 
