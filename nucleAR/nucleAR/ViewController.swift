@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         timerLabel.center = CGPoint(x: 300, y: 50)
         beginTimer()
         
-        guard let anchor = try? MyScene.loadBox() else { return }
+        guard let anchor = try? Puzzle4.loadScene() else { return }
         arMagicView.scene.anchors.append(anchor)
     }
 
