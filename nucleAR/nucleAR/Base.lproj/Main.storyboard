@@ -126,7 +126,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="y0I-F3-Pho">
-                                <rect key="frame" x="0.0" y="39" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </arscnView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bnS-2D-vKp">
@@ -174,7 +174,7 @@
                     <size key="shadowOffset" width="2" height="-1"/>
                 </label>
             </objects>
-            <point key="canvasLocation" x="87" y="126"/>
+            <point key="canvasLocation" x="86.956521739130437" y="125.89285714285714"/>
         </scene>
     </scenes>
     <resources>

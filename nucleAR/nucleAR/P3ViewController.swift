@@ -55,7 +55,7 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
         //self.sceneView.debugOptions = [ARSCNDebugOptions.showWorldOrigin]
         
         // Prompt user the problem
-        self.showText(textShow: "The test tube is unstable! Tap on the element that stablizes, then aim and tap the screen to throw it in!")
+        self.showText(textShow: "You are entering the Hot Fuel Examination Facility. Tap the element that will stabilize the hot cell.")
         
         // Create a new scene
         let scene = SCNScene(named: "art.scnassets/reactor.scn")!
@@ -212,20 +212,20 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
             let results = hitTest[0].node
             print(results.name)
             if(results.name == "argon") {
-                showText(textShow: "Correct element tapped, now tap the screen to shoot it into the tube!")
+                showText(textShow: "Correct element tapped, now tap the screen to shoot it into the hot cell!")
                 // Allows user to "shoot" ball
                 userHasSelected = true
                 self.deleteArgonAndHelium()
             }
-            else if (results.name == "helium") {
-                showText(textShow: "Helium is incorrect. You just blew up the whole facility!!!!😡")
+            else if (results.name == "oxygen") {
+                showText(textShow: "Oxygen is incorrect. You just blew up the whole facility!!!😡")
             }
         }
     }
     
     func deleteArgonAndHelium() {
         sceneView.scene.rootNode.enumerateChildNodes { (node, stop) in
-            if (node.name == "argon" || node.name == "helium") {
+            if (node.name == "argon" || node.name == "oxygen") {
                 node.removeFromParentNode()
             }
         }
@@ -263,7 +263,7 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
         let textLayer2 = CATextLayer()
         textLayer2.frame = layer.bounds
         textLayer2.fontSize = layer.bounds.size.height
-        textLayer2.string = "Helium"
+        textLayer2.string = "Oxygen"
         textLayer2.alignmentMode = CATextLayerAlignmentMode.left
         textLayer2.foregroundColor = UIColor.black.cgColor
         textLayer2.display()
@@ -271,7 +271,7 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
         // Create Helium node
         let heliumNode = SCNNode()
         heliumNode.geometry = SCNBox(width: 0.05, height: 0.05, length: 0.05, chamferRadius: 0.33)
-        heliumNode.name = "helium"
+        heliumNode.name = "oxygen"
         heliumNode.geometry?.firstMaterial?.locksAmbientWithDiffuse = true
         heliumNode.geometry?.firstMaterial?.diffuse.contents = layer2
         heliumNode.position = SCNVector3(-0.1,0,-0.01) //pos to the left
