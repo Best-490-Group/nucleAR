@@ -21,7 +21,7 @@ class HomeScreenViewController: UIViewController {
         startButton.layer.borderWidth = 1.0
         startButton.clipsToBounds = true
         
-        // Customize button
+        // Customize go to website button
         websiteButton.frame = CGRect(x: 160, y: 160, width: 160, height: 160)
         websiteButton.layer.cornerRadius = 18.0
         websiteButton.layer.borderWidth = 1.0
