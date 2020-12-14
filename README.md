@@ -20,7 +20,7 @@ These instructions will help you run our application on your local machine for d
 Since our application is still in the development phases we will only be supporting the latest versions of IOS. For further updates on our platform availability make sure to check our GitHub repo in the future. 
 
 Disclaimer:
-Some earlier versions might run but the not all features will be supported.
+Some earlier versions might run but not all features will be supported.
 
 * macOS Big Sur 11.0.1 and up
 * Xcode Version 12.2 and up
@@ -30,7 +30,7 @@ Some earlier versions might run but the not all features will be supported.
 ### Demo: Try it on mobile :iphone:
 
 * Step 1: Clone project to your local machine
-* Step 2: Open the 'nucleAR.xcodeproj' on Xcode
+* Step 2: Open the 'nucleAR.xcodeproj' in Xcode
 * Step 3: Connect your IOS device to your machine via lighting/USB port
 * Step 4: Choose your iphone device on the build settings in the active scheme
 * Step 5: Go to your iPhone Settings > General > Device Management and accept our application to run on your device
