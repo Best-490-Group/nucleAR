@@ -258,7 +258,7 @@
                                 <rect key="frame" x="111" y="49" width="192" height="146"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You ran out of time!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcJ-ur-gkQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Congratulations!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcJ-ur-gkQ">
                                 <rect key="frame" x="20" y="224" width="374" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0039215686274509803" green="0.72549019607843135" blue="0.0037509298420000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -349,7 +349,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="w7s-D0-wgq"/>
-        <segue reference="VyE-OA-KvL"/>
+        <segue reference="aN6-mL-uYS"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Logos" width="782" height="782"/>
