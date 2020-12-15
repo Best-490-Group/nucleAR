@@ -197,10 +197,12 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
             
         }
     }
+    /*
     @IBAction func resetButton(_ sender: Any) {
         userHasSelected = false
         showBalls()
     }
+ */
     
     @objc func handleTap(sender: UITapGestureRecognizer) {
         let sceneViewTappedOn = sender.view as! SCNView

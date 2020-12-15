@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tZy-ea-F28">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tZy-ea-F28">
     <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -40,7 +40,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="xcA-Uv-ObS" kind="show" id="sR5-EF-sWv"/>
+                                    <segue destination="xcA-Uv-ObS" kind="show" identifier="toPuzzle1" customClass="SegueNavigationReplaceTop" customModule="nucleAR" customModuleProvider="target" id="sR5-EF-sWv"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logos" translatesAutoresizingMaskIntoConstraints="NO" id="Rel-B7-BN6">
@@ -100,7 +100,7 @@
                         <outlet property="arMagicView" destination="8bC-Xf-vdC" id="TPV-4x-avp"/>
                         <outlet property="timerLabel" destination="bYM-aP-qKr" id="Qne-jv-QgL"/>
                         <segue destination="aDd-MM-nlt" kind="show" identifier="puzzleTwoDefeat" customClass="SegueNavigationReplaceTop" customModule="nucleAR" customModuleProvider="target" id="w7s-D0-wgq"/>
-                        <segue destination="z1u-dK-PEG" kind="show" identifier="toSuccessVC" id="JlM-s4-qgf"/>
+                        <segue destination="z1u-dK-PEG" kind="show" identifier="toSuccessVC" customClass="SegueNavigationReplaceTop" customModule="nucleAR" customModuleProvider="target" id="JlM-s4-qgf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -139,24 +139,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYc-k7-3XZ">
-                                <rect key="frame" x="348" y="0.0" width="46" height="20"/>
-                                <state key="normal" title="Reset"/>
-                                <connections>
-                                    <action selector="resetButton:" destination="xcA-Uv-ObS" eventType="touchUpInside" id="IBE-kR-bEx"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IUE-FW-FX0"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="bnS-2D-vKp" firstAttribute="leading" secondItem="IUE-FW-FX0" secondAttribute="leading" constant="5" id="4sj-3y-0vu"/>
                             <constraint firstItem="IUE-FW-FX0" firstAttribute="bottom" secondItem="bnS-2D-vKp" secondAttribute="bottom" constant="711" id="JV7-FL-gBi"/>
-                            <constraint firstItem="IUE-FW-FX0" firstAttribute="trailing" secondItem="UYc-k7-3XZ" secondAttribute="trailing" constant="20" id="TIg-OD-6JM"/>
-                            <constraint firstItem="UYc-k7-3XZ" firstAttribute="leading" secondItem="IUE-FW-FX0" secondAttribute="leading" constant="348" id="TWa-G3-zQB"/>
-                            <constraint firstItem="IUE-FW-FX0" firstAttribute="bottom" secondItem="UYc-k7-3XZ" secondAttribute="bottom" constant="788" id="Ymh-uI-koc"/>
                             <constraint firstItem="IUE-FW-FX0" firstAttribute="trailing" secondItem="bnS-2D-vKp" secondAttribute="trailing" constant="5" id="g8U-jz-HQz"/>
-                            <constraint firstItem="UYc-k7-3XZ" firstAttribute="top" secondItem="IUE-FW-FX0" secondAttribute="top" id="oVg-3o-K0d"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="vsc-Ka-dpW"/>
@@ -164,7 +153,7 @@
                         <outlet property="label" destination="bnS-2D-vKp" id="d9o-za-NtK"/>
                         <outlet property="sceneView" destination="y0I-F3-Pho" id="TzW-cH-asf"/>
                         <outlet property="timerHoop" destination="nyH-iH-cTp" id="iyv-pu-8fC"/>
-                        <segue destination="BYZ-38-t0r" kind="show" identifier="toPuzzleOne" animates="NO" id="RUA-fl-j6a"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="toPuzzleOne" customClass="SegueNavigationReplaceTop" customModule="nucleAR" customModuleProvider="target" animates="NO" id="RUA-fl-j6a"/>
                         <segue destination="aDd-MM-nlt" kind="show" identifier="puzzleOneDefeat" customClass="SegueNavigationReplaceTop" customModule="nucleAR" customModuleProvider="target" id="qaU-5g-Fpd"/>
                     </connections>
                 </viewController>
@@ -400,7 +389,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="w7s-D0-wgq"/>
+        <segue reference="qaU-5g-Fpd"/>
         <segue reference="maO-Vg-R5C"/>
     </inferredMetricsTieBreakers>
     <resources>
