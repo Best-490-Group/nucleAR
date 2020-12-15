@@ -57,7 +57,7 @@ class ViewController: UIViewController {
                      self.timerTwo = nil
                     
                                 self.arMagicView.scene.anchors.removeAll()
-                       
+                    performSegue(withIdentifier: "puzzleTwoDefeat", sender: nil)
         
              }
                 

@@ -100,7 +100,7 @@
                         <outlet property="arMagicView" destination="8bC-Xf-vdC" id="TPV-4x-avp"/>
                         <outlet property="timerLabel" destination="bYM-aP-qKr" id="Qne-jv-QgL"/>
                         <segue destination="aDd-MM-nlt" kind="show" identifier="puzzleTwoDefeat" customClass="SegueNavigationReplaceTop" customModule="nucleAR" customModuleProvider="target" id="w7s-D0-wgq"/>
-                        <segue destination="z1u-dK-PEG" kind="show" identifier="toSuccessVC" id="JlM-s4-qgf"/>
+                        <segue destination="z1u-dK-PEG" kind="show" identifier="toSuccessVC" customClass="SegueNavigationReplaceTop" customModule="nucleAR" customModuleProvider="target" id="JlM-s4-qgf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -164,7 +164,7 @@
                         <outlet property="label" destination="bnS-2D-vKp" id="d9o-za-NtK"/>
                         <outlet property="sceneView" destination="y0I-F3-Pho" id="TzW-cH-asf"/>
                         <outlet property="timerHoop" destination="nyH-iH-cTp" id="iyv-pu-8fC"/>
-                        <segue destination="BYZ-38-t0r" kind="show" identifier="toPuzzleOne" animates="NO" id="RUA-fl-j6a"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="toPuzzleOne" customClass="SegueNavigationReplaceTop" customModule="nucleAR" customModuleProvider="target" animates="NO" id="RUA-fl-j6a"/>
                         <segue destination="aDd-MM-nlt" kind="show" identifier="puzzleOneDefeat" customClass="SegueNavigationReplaceTop" customModule="nucleAR" customModuleProvider="target" id="qaU-5g-Fpd"/>
                     </connections>
                 </viewController>
@@ -256,7 +256,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qbL-R8-ZXP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="871" y="903"/>
+            <point key="canvasLocation" x="81" y="903"/>
         </scene>
         <!--Success VC-->
         <scene sceneID="NHR-oi-B5K">
@@ -310,7 +310,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FgS-5c-dFA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2398.5507246376815" y="902.67857142857133"/>
+            <point key="canvasLocation" x="871" y="903"/>
         </scene>
         <!--Objective VC-->
         <scene sceneID="W1e-AA-iba">
@@ -352,7 +352,7 @@
                                     <segue destination="FkN-VL-1MM" kind="show" identifier="goBackHome" customClass="SegueNavigationReplaceTop" customModule="nucleAR" customModuleProvider="target" id="maO-Vg-R5C"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You are going to enter the Idaho National Laboratory and have 2 minutes to clear the tasks presented around you. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYx-bG-yK1">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You are going to enter the Idaho National Laboratory and have 2 minutes to clear the tasks presented around you" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYx-bG-yK1">
                                 <rect key="frame" x="20" y="259" width="374" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -360,7 +360,7 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Make sure you have good lighting because it is hard to work in the dark! " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAo-kd-S4I">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Make sure you have good lighting because it is hard to work in the dark" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAo-kd-S4I">
                                 <rect key="frame" x="20" y="341" width="374" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -400,8 +400,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="w7s-D0-wgq"/>
-        <segue reference="aN6-mL-uYS"/>
+        <segue reference="qaU-5g-Fpd"/>
+        <segue reference="maO-Vg-R5C"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="GG" width="595" height="482"/>
