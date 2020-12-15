@@ -34,6 +34,9 @@ class ViewController: UIViewController {
         guard let anchor = try? MyScene.loadBox() else { return }
         arMagicView.scene.anchors.append(anchor)
         
+        guard let anchor2 = try? MyScene.loadDone() else { return }
+        arMagicView.scene.anchors.append(anchor2)
+        anchor2.actions.behavior1.onAction = handleTapOnEntity(_:)
     }
     
     func continueTimer() {
@@ -60,6 +63,11 @@ class ViewController: UIViewController {
                 
              }
          }
+    
+    func handleTapOnEntity(_ entity: Entity?) {
+        guard entity != nil else { return }
+        performSegue(withIdentifier: "toSuccessVC", sender: nil)
+    }
     
     //function to help format the time
      func timeDisplay(_ totalSeconds: Int) -> String {

@@ -100,7 +100,7 @@
                         <outlet property="arMagicView" destination="8bC-Xf-vdC" id="TPV-4x-avp"/>
                         <outlet property="timerLabel" destination="bYM-aP-qKr" id="Qne-jv-QgL"/>
                         <segue destination="aDd-MM-nlt" kind="show" identifier="puzzleTwoDefeat" customClass="SegueNavigationReplaceTop" customModule="nucleAR" customModuleProvider="target" id="w7s-D0-wgq"/>
-                        <segue destination="z1u-dK-PEG" kind="show" id="JlM-s4-qgf"/>
+                        <segue destination="z1u-dK-PEG" kind="show" identifier="toSuccessVC" id="JlM-s4-qgf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -348,7 +348,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="sR5-EF-sWv"/>
         <segue reference="w7s-D0-wgq"/>
         <segue reference="VyE-OA-KvL"/>
     </inferredMetricsTieBreakers>
