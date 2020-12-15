@@ -255,7 +255,7 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
         argonNode.name = "argon"
         argonNode.geometry?.firstMaterial?.locksAmbientWithDiffuse = true
         argonNode.geometry?.firstMaterial?.diffuse.contents = layer
-        argonNode.position = SCNVector3(0.1,0,-0.01) //pos to the right
+        argonNode.position = SCNVector3(0.1,0,-0.15) //pos to the right
         self.sceneView.scene.rootNode.addChildNode(argonNode)
         
         // Add text to oxygen node
@@ -277,7 +277,7 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
         oxygenNode.name = "oxygen"
         oxygenNode.geometry?.firstMaterial?.locksAmbientWithDiffuse = true
         oxygenNode.geometry?.firstMaterial?.diffuse.contents = layer2
-        oxygenNode.position = SCNVector3(-0.1,0,-0.01) //pos to the left
+        oxygenNode.position = SCNVector3(-0.1,0,-0.15) //pos to the left
         self.sceneView.scene.rootNode.addChildNode(oxygenNode)
     }
     
