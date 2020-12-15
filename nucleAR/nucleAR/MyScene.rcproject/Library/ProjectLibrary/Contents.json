@@ -1,3 +1,27 @@
 [
-
+  {
+    "libraryIdentifier" : "23195e755405b59b523528535ad8d02e",
+    "format" : "image",
+    "displayName" : "warning_strip.png"
+  },
+  {
+    "libraryIdentifier" : "0ee70e719a88a7d06ca8fd4c5fd98fe1",
+    "format" : "model",
+    "displayName" : "01.usdz"
+  },
+  {
+    "libraryIdentifier" : "ef8ab4f22e8b9c72659ba7cd2200ad4b",
+    "format" : "image",
+    "displayName" : "idaho.jpeg"
+  },
+  {
+    "libraryIdentifier" : "530b32268f9f92faf966fe448cefb87c",
+    "format" : "image",
+    "displayName" : "circuit.png"
+  },
+  {
+    "libraryIdentifier" : "427a21ab5d68ae54ebbc957956cce4df",
+    "format" : "image",
+    "displayName" : "neutron_flux.jpeg"
+  }
 ]

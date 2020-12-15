@@ -101,7 +101,7 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
     }
     
     func beginTimer() {
-             self.totalTime = 20
+             self.totalTime = 120
              self.timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(processTimer), userInfo: nil, repeats: true)
              self.view.addSubview(timerHoop)
          }
