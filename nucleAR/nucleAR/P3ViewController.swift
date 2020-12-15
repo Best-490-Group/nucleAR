@@ -279,6 +279,31 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
         oxygenNode.geometry?.firstMaterial?.diffuse.contents = layer2
         oxygenNode.position = SCNVector3(-0.1,0,-0.2) //pos to the left
         self.sceneView.scene.rootNode.addChildNode(oxygenNode)
+        
+        
+//        // Init electrons
+//        let electronNode = SCNNode(geometry: SCNSphere(radius: 0.005))
+//        electronNode.position = SCNVector3(0.05,0,0)
+//        electronNode.geometry?.firstMaterial?.diffuse.contents = UIColor.blue.cgColor
+//
+//        // Actions
+//        let electronRotation = SCNAction.rotateBy(x: 0, y: CGFloat(360.degreesToRad), z: 0, duration: 9)
+//        let foreverAction = SCNAction.repeatForever(electronRotation)
+//
+//        // Create empty node to track argons position, this is needed so argon doesnt actually rotate
+//        let argonParentNode = SCNNode()
+//        argonParentNode.position = SCNVector3(0.1,0,-0.2)
+//        self.sceneView.scene.rootNode.addChildNode(argonParentNode)
+//
+//        // Create Empty node to trac
+//
+//        // Run action
+//        argonParentNode.runAction(foreverAction)
+//
+//        // Append to argon as a child node
+//        argonParentNode.addChildNode(electronNode)
+        
+        
     }
     
     ///Function prompts the user to tap on the correct element (argon) then is able to throw in argon
@@ -308,4 +333,8 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
 
 func +(left: SCNVector3, right: SCNVector3) -> SCNVector3 {
     return SCNVector3Make(left.x + right.x, left.y + left.y, left.z + right.z)
+}
+
+extension Int {
+    var degreesToRad: Double { return Double(self) * .pi/180}
 }
