@@ -91,7 +91,7 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
         self.sceneView.scene.rootNode.addChildNode(contactNode)
         
         
-        // Handle tap for selection of argon or helium
+        // Handle tap for selection of argon or oxygen
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleTap))
         self.sceneView.addGestureRecognizer(tapGestureRecognizer)
         
@@ -217,7 +217,7 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
                 showText(textShow: "Correct element tapped, now tap the screen to shoot it into the hot cell!")
                 // Allows user to "shoot" ball
                 userHasSelected = true
-                self.deleteArgonAndHelium()
+                self.deleteArgonAndOxygen()
             }
             else if (results.name == "oxygen") {
                 showText(textShow: "Oxygen is incorrect. You just blew up the whole facility!!!😡")
@@ -225,7 +225,7 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
         }
     }
     
-    func deleteArgonAndHelium() {
+    func deleteArgonAndOxygen() {
         sceneView.scene.rootNode.enumerateChildNodes { (node, stop) in
             if (node.name == "argon" || node.name == "oxygen") {
                 node.removeFromParentNode()
@@ -233,7 +233,7 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
         }
     }
     
-    /// Function places argon and helium and allows the user to select
+    /// Function places argon and oxygen and allows the user to select
     func showBalls() {
         
         // Add text to argon node
@@ -255,10 +255,10 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
         argonNode.name = "argon"
         argonNode.geometry?.firstMaterial?.locksAmbientWithDiffuse = true
         argonNode.geometry?.firstMaterial?.diffuse.contents = layer
-        argonNode.position = SCNVector3(0.1,0,-0.01) //pos to the right
+        argonNode.position = SCNVector3(0.1,0,-0.2) //pos to the right
         self.sceneView.scene.rootNode.addChildNode(argonNode)
         
-        // Add text to helium node
+        // Add text to oxygen node
         let layer2 = CALayer()
         layer2.frame = CGRect(x: 0, y: 0, width: 200, height: 50)
         layer2.backgroundColor = UIColor.white.cgColor
@@ -270,14 +270,15 @@ class P3ViewController: UIViewController, SCNPhysicsContactDelegate {
         textLayer2.foregroundColor = UIColor.black.cgColor
         textLayer2.display()
         layer2.addSublayer(textLayer2)
-        // Create Helium node
-        let heliumNode = SCNNode()
-        heliumNode.geometry = SCNBox(width: 0.05, height: 0.05, length: 0.05, chamferRadius: 0.33)
-        heliumNode.name = "oxygen"
-        heliumNode.geometry?.firstMaterial?.locksAmbientWithDiffuse = true
-        heliumNode.geometry?.firstMaterial?.diffuse.contents = layer2
-        heliumNode.position = SCNVector3(-0.1,0,-0.01) //pos to the left
-        self.sceneView.scene.rootNode.addChildNode(heliumNode)
+        
+        // Create Oxygen node
+        let oxygenNode = SCNNode()
+        oxygenNode.geometry = SCNBox(width: 0.05, height: 0.05, length: 0.05, chamferRadius: 0.33)
+        oxygenNode.name = "oxygen"
+        oxygenNode.geometry?.firstMaterial?.locksAmbientWithDiffuse = true
+        oxygenNode.geometry?.firstMaterial?.diffuse.contents = layer2
+        oxygenNode.position = SCNVector3(-0.1,0,-0.2) //pos to the left
+        self.sceneView.scene.rootNode.addChildNode(oxygenNode)
     }
     
     ///Function prompts the user to tap on the correct element (argon) then is able to throw in argon
