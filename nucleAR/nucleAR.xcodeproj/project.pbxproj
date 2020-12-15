@@ -22,9 +22,6 @@
 		20F33970253CF2B3004DF063 /* nucleARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3396F253CF2B3004DF063 /* nucleARTests.swift */; };
 		20F3397B253CF2B3004DF063 /* nucleARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3397A253CF2B3004DF063 /* nucleARUITests.swift */; };
 		B09169F8258784CC001AFA24 /* DefeatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09169F7258784CC001AFA24 /* DefeatVC.swift */; };
-		B0EFFA392588A9D90090E792 /* SuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EFFA382588A9D90090E792 /* SuccessVC.swift */; };
-		B0EFFA3E2588AA0C0090E792 /* ObjectiveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EFFA3D2588AA0C0090E792 /* ObjectiveVC.swift */; };
-		B0EFFA432588AF0F0090E792 /* customSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EFFA422588AF0F0090E792 /* customSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,9 +61,6 @@
 		20F3397A253CF2B3004DF063 /* nucleARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nucleARUITests.swift; sourceTree = "<group>"; };
 		20F3397C253CF2B3004DF063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B09169F7258784CC001AFA24 /* DefeatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefeatVC.swift; sourceTree = "<group>"; };
-		B0EFFA382588A9D90090E792 /* SuccessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessVC.swift; sourceTree = "<group>"; };
-		B0EFFA3D2588AA0C0090E792 /* ObjectiveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveVC.swift; sourceTree = "<group>"; };
-		B0EFFA422588AF0F0090E792 /* customSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,9 +131,6 @@
 				0174676125835541009930DC /* art.scnassets */,
 				20A756CD25861AF1003F3961 /* MyScene.rcproject */,
 				B09169F7258784CC001AFA24 /* DefeatVC.swift */,
-				B0EFFA382588A9D90090E792 /* SuccessVC.swift */,
-				B0EFFA3D2588AA0C0090E792 /* ObjectiveVC.swift */,
-				B0EFFA422588AF0F0090E792 /* customSegue.swift */,
 			);
 			path = nucleAR;
 			sourceTree = "<group>";
@@ -296,12 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0EFFA3E2588AA0C0090E792 /* ObjectiveVC.swift in Sources */,
 				20F3395B253CF2B2004DF063 /* ViewController.swift in Sources */,
 				0174675D2583539F009930DC /* P3ViewController.swift in Sources */,
-				B0EFFA392588A9D90090E792 /* SuccessVC.swift in Sources */,
 				20A756CE25861AF1003F3961 /* MyScene.rcproject in Sources */,
-				B0EFFA432588AF0F0090E792 /* customSegue.swift in Sources */,
 				B09169F8258784CC001AFA24 /* DefeatVC.swift in Sources */,
 				012D35C12555387D00BAFA98 /* HomeScreenViewController.swift in Sources */,
 				20F33959253CF2B2004DF063 /* AppDelegate.swift in Sources */,
@@ -481,13 +469,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4XNJ36AV2F;
+				DEVELOPMENT_TEAM = AFT49TZ2SR;
 				INFOPLIST_FILE = nucleAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sheef;
+				PRODUCT_BUNDLE_IDENTIFIER = jguev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -501,14 +489,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-        updated_storyboard_flow
-				DEVELOPMENT_TEAM = 4XNJ36AV2F;
+				DEVELOPMENT_TEAM = AFT49TZ2SR;
 				INFOPLIST_FILE = nucleAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sheef;
+				PRODUCT_BUNDLE_IDENTIFIER = jguev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
