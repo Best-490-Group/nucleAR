@@ -501,6 +501,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+        updated_storyboard_flow
 				DEVELOPMENT_TEAM = 4XNJ36AV2F;
 				INFOPLIST_FILE = nucleAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
