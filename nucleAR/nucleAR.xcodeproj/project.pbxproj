@@ -13,27 +13,6 @@
 		202DD60A2562C06B00FB868C /* 01.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6092562C06B00FB868C /* 01.usdz */; };
 		202DD60B2562C06B00FB868C /* 01.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6092562C06B00FB868C /* 01.usdz */; };
 		202DD60C2562C06B00FB868C /* 01.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6092562C06B00FB868C /* 01.usdz */; };
-		202DD6172562C07F00FB868C /* 02.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6162562C07F00FB868C /* 02.usdz */; };
-		202DD6182562C07F00FB868C /* 02.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6162562C07F00FB868C /* 02.usdz */; };
-		202DD6192562C07F00FB868C /* 02.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6162562C07F00FB868C /* 02.usdz */; };
-		202DD6242562C09B00FB868C /* 03.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6232562C09B00FB868C /* 03.usdz */; };
-		202DD6252562C09B00FB868C /* 03.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6232562C09B00FB868C /* 03.usdz */; };
-		202DD6262562C09B00FB868C /* 03.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6232562C09B00FB868C /* 03.usdz */; };
-		202DD62E2562C0A900FB868C /* 04.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD62D2562C0A900FB868C /* 04.usdz */; };
-		202DD62F2562C0A900FB868C /* 04.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD62D2562C0A900FB868C /* 04.usdz */; };
-		202DD6302562C0A900FB868C /* 04.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD62D2562C0A900FB868C /* 04.usdz */; };
-		202DD6382562C0B400FB868C /* 05.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6372562C0B400FB868C /* 05.usdz */; };
-		202DD6392562C0B400FB868C /* 05.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6372562C0B400FB868C /* 05.usdz */; };
-		202DD63A2562C0B400FB868C /* 05.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6372562C0B400FB868C /* 05.usdz */; };
-		202DD6422562C0BC00FB868C /* 06.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6412562C0BC00FB868C /* 06.usdz */; };
-		202DD6432562C0BC00FB868C /* 06.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6412562C0BC00FB868C /* 06.usdz */; };
-		202DD6442562C0BC00FB868C /* 06.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6412562C0BC00FB868C /* 06.usdz */; };
-		202DD6492562C0C200FB868C /* 07.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6482562C0C200FB868C /* 07.usdz */; };
-		202DD64A2562C0C200FB868C /* 07.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6482562C0C200FB868C /* 07.usdz */; };
-		202DD64B2562C0C200FB868C /* 07.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6482562C0C200FB868C /* 07.usdz */; };
-		202DD6532562C0C800FB868C /* 08.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6522562C0C800FB868C /* 08.usdz */; };
-		202DD6542562C0C800FB868C /* 08.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6522562C0C800FB868C /* 08.usdz */; };
-		202DD6552562C0C800FB868C /* 08.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 202DD6522562C0C800FB868C /* 08.usdz */; };
 		20A756CE25861AF1003F3961 /* MyScene.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 20A756CD25861AF1003F3961 /* MyScene.rcproject */; };
 		20F33959253CF2B2004DF063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F33958253CF2B2004DF063 /* AppDelegate.swift */; };
 		20F3395B253CF2B2004DF063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3395A253CF2B2004DF063 /* ViewController.swift */; };
@@ -67,13 +46,6 @@
 		0174675C2583539F009930DC /* P3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P3ViewController.swift; sourceTree = "<group>"; };
 		0174676125835541009930DC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		202DD6092562C06B00FB868C /* 01.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 01.usdz; sourceTree = "<group>"; };
-		202DD6162562C07F00FB868C /* 02.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 02.usdz; sourceTree = "<group>"; };
-		202DD6232562C09B00FB868C /* 03.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 03.usdz; sourceTree = "<group>"; };
-		202DD62D2562C0A900FB868C /* 04.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 04.usdz; sourceTree = "<group>"; };
-		202DD6372562C0B400FB868C /* 05.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 05.usdz; sourceTree = "<group>"; };
-		202DD6412562C0BC00FB868C /* 06.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 06.usdz; sourceTree = "<group>"; };
-		202DD6482562C0C200FB868C /* 07.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 07.usdz; sourceTree = "<group>"; };
-		202DD6522562C0C800FB868C /* 08.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 08.usdz; sourceTree = "<group>"; };
 		20A756CD25861AF1003F3961 /* MyScene.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = MyScene.rcproject; sourceTree = "<group>"; };
 		20F33955253CF2B2004DF063 /* nucleAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nucleAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F33958253CF2B2004DF063 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -119,13 +91,6 @@
 		202DD6692562D6F100FB868C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				202DD6522562C0C800FB868C /* 08.usdz */,
-				202DD6482562C0C200FB868C /* 07.usdz */,
-				202DD6412562C0BC00FB868C /* 06.usdz */,
-				202DD6372562C0B400FB868C /* 05.usdz */,
-				202DD62D2562C0A900FB868C /* 04.usdz */,
-				202DD6232562C09B00FB868C /* 03.usdz */,
-				202DD6162562C07F00FB868C /* 02.usdz */,
 				202DD6092562C06B00FB868C /* 01.usdz */,
 			);
 			path = Models;
@@ -291,18 +256,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				202DD6172562C07F00FB868C /* 02.usdz in Resources */,
 				0174676225835541009930DC /* art.scnassets in Resources */,
-				202DD6422562C0BC00FB868C /* 06.usdz in Resources */,
-				202DD6242562C09B00FB868C /* 03.usdz in Resources */,
-				202DD6532562C0C800FB868C /* 08.usdz in Resources */,
-				202DD6382562C0B400FB868C /* 05.usdz in Resources */,
 				202DD60A2562C06B00FB868C /* 01.usdz in Resources */,
 				20F33965253CF2B3004DF063 /* LaunchScreen.storyboard in Resources */,
 				20F33962253CF2B3004DF063 /* Assets.xcassets in Resources */,
 				20F33960253CF2B2004DF063 /* Main.storyboard in Resources */,
-				202DD6492562C0C200FB868C /* 07.usdz in Resources */,
-				202DD62E2562C0A900FB868C /* 04.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,14 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				202DD6252562C09B00FB868C /* 03.usdz in Resources */,
 				202DD60B2562C06B00FB868C /* 01.usdz in Resources */,
-				202DD64A2562C0C200FB868C /* 07.usdz in Resources */,
-				202DD6542562C0C800FB868C /* 08.usdz in Resources */,
-				202DD6182562C07F00FB868C /* 02.usdz in Resources */,
-				202DD6432562C0BC00FB868C /* 06.usdz in Resources */,
-				202DD6392562C0B400FB868C /* 05.usdz in Resources */,
-				202DD62F2562C0A900FB868C /* 04.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,14 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				202DD6262562C09B00FB868C /* 03.usdz in Resources */,
 				202DD60C2562C06B00FB868C /* 01.usdz in Resources */,
-				202DD64B2562C0C200FB868C /* 07.usdz in Resources */,
-				202DD6552562C0C800FB868C /* 08.usdz in Resources */,
-				202DD6192562C07F00FB868C /* 02.usdz in Resources */,
-				202DD6442562C0BC00FB868C /* 06.usdz in Resources */,
-				202DD63A2562C0B400FB868C /* 05.usdz in Resources */,
-				202DD6302562C0A900FB868C /* 04.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
